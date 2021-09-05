@@ -1,0 +1,59 @@
+<div class="wrapper">
+    <div class="login-box">
+        <div class="container">
+            <div class="fluid-head">
+                <div class="logo"><a href="/"><img src="assets/img/logo.png"></a></div>
+                <h1 class="subtitle2 m-0">Skillzage</h1>
+                <div class="text-small upper">Skills to build <a href="login.html">a better future</a></div>
+            </div>
+            <div class="fluid-body">
+                <div class="subtitle1 my-1">Connect width</div>
+                <div class="buttons mb-2">
+                    <button class="button-sm mx-1 fb"><i class="fab fa-facebook-f"></i></button>
+                    <button class="button-sm mx-1 li"><i class="fab fa-linkedin-in"></i></button>
+                    <button class="button-sm mx-1 Go" onclick="popup()"><i class="fab fa-google"></i></button>
+                </div>
+            </div>
+            <hr class="hr mb-2">
+            <div class="login-form">
+                <div class="subtitle2 mt-0 mb-3">Login with your site account</div>
+                <div class="input-group">
+                    <input type="text" placeholder="username" [(ngModel)]="loginPayload.email">
+                </div>
+                <div class="input-group password-field">
+                    <input type="password" role="password-field" placeholder="******"  [(ngModel)]="loginPayload.password">
+                    <i class="far fa-eye" id="togglePassword"></i>                 
+                </div>
+                
+            
+                <div class="input-group text-small mb-2 field1">
+                    <label>
+                        <input type="checkbox" name="rememberme_field">
+                        <span aria-label="Remember Me">Remember Me</span>
+                        <a href="">Lost your Password?</a>
+                    </label>                                
+                </div>
+                <div class="input-group text-small mb-2 field1">
+                    <label>
+                        <input type="checkbox" name="agree_field">
+                        <span aria-label="Agree">Agree to Terms & Conditions</span>                            
+                    </label>                                
+                </div>
+                <div class="fluid-height">
+                    <div class="input-group flex-center-h">
+                        <button class="button em50" (click)="doLogin()">Login</button>
+                    </div>
+                    <div class="input-group">
+                        <div class="text-small field2">
+                            Not a Member Yet? <a href="">Register here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="close-popup"><i class="fa fa-times"></i></div>    
+    </div>
+</div>
+<div class="overlay" onclick="popup()"></div>
+    <div class="popup"><img src="assets/img/sign_google.png"></div>
+<div class="gradient2"></div>

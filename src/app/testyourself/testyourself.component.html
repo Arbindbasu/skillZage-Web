@@ -1,0 +1,161 @@
+
+<body> 
+    <header>
+        <div class="dt flex-center">
+            <div class="grid">
+                <div class="grid__col-3 flex-center-l">
+                    <button class="button-lg-sq home"><i class="fa fa-home"></i></button>
+                </div>
+                <div class="grid__col-6 flex-center-col">
+                    <h2 class="h2">Skillzage</h2>
+                    <div class="subtitle1 pt-3 upper center">Skills to build <a class="subtitle1" href="/">a better future</a></div>
+                </div>            
+                <div class="grid__col-3 flex-center-r">
+                    <button class="button-lg-sq user"><i class="fa fa-user"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="mo">
+            <div class="grid">
+                <div class="grid__col-2 flex-center-b">
+                    <button class="button-sm home"><i class="fa fa-home"></i></button>
+                </div>
+                <div class="grid__col-8 flex-center-b">
+                    <div class="center">
+                        <h1 class="subtitle2 m-0">Skillzage</h1>
+                        <div class="text-smaller upper">Skills to build <a class="text-smaller upper" href="login.html">a better future</a></div>
+                    </div>
+                </div>
+                <div class="grid__col-2 flex-center-b">
+                    <button class="button-sm user"><i class="fa fa-user"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>    
+    <main>
+        <h1 class="subtitle1 py-4 center">Course Name</h1>
+        <div class="r-box shadow flex-center-col">
+            <div class="q-box">
+                <h4 class="subtitle2">Session 1: Description</h4>
+                <div class="q-title">Quiz Questions</div>
+            </div>
+            <div class="q-box">
+                <div class="q-body">
+                    <div class="item-title">1. Please select from choices below:</div>
+                    <div class="item-body">
+                        <label>
+                            <input type="checkbox" name="Item_1"> <span aria-label="Item 1">Item 1</span>
+                        </label>  
+                    </div>
+                    <div class="item-body">
+                        <label>
+                            <input type="checkbox" name="Item_2"> <span aria-label="Item 1">Item 2</span>
+                        </label>  
+                    </div>
+                    <div class="item-body">
+                        <label>
+                            <input type="checkbox" name="Item_3"> <span aria-label="Item 1">Item 3</span>
+                        </label>  
+                    </div>
+                </div>
+            </div>
+            <div class="q-box">
+                <div class="q-body">
+                    <div class="item-title">2. Please match items:</div>
+                    <div id="Canvas" class="item-body">
+                        <div class="line">
+                            <svg id="SwgLine">
+                                <!--line x1="200" y1="130" x2="500" y2="200"  stroke-dasharray="5, 5" /-->
+                            </svg>
+                        </div>
+                        <div class="grid">
+                            <div class="grid__col-5 tags-left">
+                                <div class="tag" onclick="DrawLine(this, 'L')">Item 1</div>
+                                <div class="tag" onclick="DrawLine(this, 'L')">Item 2 Toooooo long</div>
+                                <div class="tag" onclick="DrawLine(this, 'L')">Item long 3</div>
+                                <div class="tag" onclick="DrawLine(this, 'L')">Item 4</div>
+                            </div> 
+                            <div class="grid__col-2"></div>
+                            <div class="grid__col-5 tags-right">
+                                <div class="tag" onclick="DrawLine(this, 'R')">Item 1</div>
+                                <div class="tag" onclick="DrawLine(this, 'R')">Item long 2</div>
+                                <div class="tag" onclick="DrawLine(this, 'R')">Item 3</div>
+                                <div class="tag" onclick="DrawLine(this, 'R')">Item 4 tooooo long</div>
+                            </div> 
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+            <div class="q-box">
+                <div class="q-body">
+                    <div class="item-title">3. Please match items:</div>
+                    <div class="item-body">
+                        <div class="matched-tags">
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Item 2</div>
+                            <div class="tag">Item 3</div>
+                            <div class="tag">Item zzz 4</div>
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Item 2</div>
+                            <div class="tag">Item 3</div>
+                            <div class="tag">Item 4</div>
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Item 2</div>
+                            <div class="tag">Item 3</div>
+                            <div class="tag">Item 4</div>
+                        </div> 
+                        <div class="match-tags">
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Itemss 2</div>
+                            <div class="tag">Item dsd 3</div>
+                            <div class="tag">Item 4</div>
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Item dsd f 2</div>
+                            <div class="tag">Item 3</div>
+                            <div class="tag">Item 4</div>
+                            <div class="tag">Item 1</div>
+                            <div class="tag">Item 2</div>
+                            <div class="tag">Item 3</div>
+                            <div class="tag">Item 4</div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="q-box">
+                <div class="q-body">
+                    <div class="item-title">4. Video Embed</div>
+                    <div class="item-body">
+                        <div class="item-video">
+                            <img width="100%" src="../../assets/img/video.png">
+                        </div> 
+                    </div>                    
+                </div>
+            </div>
+            <div class="q-box mb-4">
+                <div class="q-body flex-lr">
+                    <button class="button-md-sm">View Quiz Result</button>
+                    <button class="button-md-sm">Complete</button>
+                </div>
+            </div>
+        </div> 
+        <div class="container flex-center mt-3 mb-5">
+            <button class="button em">Final Quiz</button>
+        </div>
+        <div class="container buttons-group my-5">            
+            <button class="button em">Courses</button>                    
+            <button class="button em">Knowledge Hub</button>                                
+            <button class="button em">Annoncements</button>                                
+        </div>       
+    </main>
+    <footer>
+        <div class="grid-footer">
+            <div><a href="/"><i class="fa fa-home"></i></a></div>
+            <div><a href="/"><i class="fa fa-book-open"></i></a></div>
+            <div><a href="/"><i class="fa fa-search"></i></a></div>
+            <div><a href="/"><i class="fa fa-bell"></i></a></div>
+            <div><a href="/"><i class="fa fa-user"></i></a></div>
+        </div>
+    </footer>
+    <div class="gradient2"></div>
+<script src="../../assets/js/main.js"></script>
+

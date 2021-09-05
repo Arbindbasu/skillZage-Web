@@ -1,0 +1,92 @@
+
+  
+    <header class="adm"> 
+        <div class="grid">
+            <div class="grid__col-3 flex-center-l logo">
+                <a href="/"><img src="../../assets/img/logo.png"></a>
+            </div>
+            <div class="grid__col-6 flex-center">
+                <div class="flex-center-col">
+                    <h1 class="h2 my-2 p-0">Skillzage</h1>
+                    <div class="subtitle2 upper center">Skills to build <span class="primary-color">a better future</span></div>
+                </div>            
+            </div>
+            <div class="grid__col-3 flex-center-v">
+                <div class="grid-wrap-btw w100 mb-3 admMenu">
+                    <div class="grid__col-4">
+                        <a href="/"></a>
+                    </div>
+                    <div class="grid__col-4">
+                        <a href="/">Logout</a>
+                    </div>
+                    <div class="grid__col-4">
+                        <a href="/"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>                
+            </div>
+        </div>            
+    </header>
+    <div class="page adm">
+        <div class="container my-5">
+            <h3>User Management</h3>            
+        </div>
+        <div class="r-box shadow course-management my-4">
+            <div>           
+                <div class="subtitle1 left my-4">Name of the Institution</div>     
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skillzage ID</th>
+                            <th>User Type</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th width="100px">Institution Name</th>
+                            <th width="100px">Subscription Start Date</th>
+                            <th width="100px">Subscription End Date</th>
+                            <th width="90px">Block (Y/N)</th>
+                            <th width="70px"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>Session 1</td>
+                            <td><a href="javascript:void(0)">User</a></td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td class="center"><i class="far fa-check"></i></td>
+                            <td class="center">
+                                <i class="fas fa-minus-circle"></i><i class="fas fa-plus-circle"></i>
+                            </td>
+                        </tr>
+                        <tr class="even">
+                            <td>Session 1</td>
+                            <td><a id="" href="javascript:void(0)">Admin</a></td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td class="center"><i class="far fa-times"></i></td>
+                            <td class="center">
+                                <i class="fas fa-minus-circle"></i><i class="fas fa-plus-circle" ng-click="open()" ></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+        <div class="container flex-center my-4">            
+            <button class="button em mr-2" ng-click="open()">Create User</button>            
+            <button class="button em ml-2">Bulk User Create</button>            
+        </div>        
+    </div>
+
+    <div class="overlay" onclick="popup('close')"></div> 
+
+   
+    <div class="gradient2"></div>
+<script src="../../assets/js/main.js"></script>
+<script src="../../assets/js/usermanage.js"></script>

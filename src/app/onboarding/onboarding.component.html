@@ -1,0 +1,100 @@
+
+
+    <header>
+        <div class="dt flex-center">
+            <div class="grid">
+                <div class="grid__col-3 flex-center-l pt-5 pl-5">
+                    <button class="button-lg-sq home"><i class="fa fa-home"></i></button>
+                </div>
+                <div class="grid__col-6 flex-center-col">
+                    <h2 class="h2">Skillzage</h2>
+                    <div class="subtitle1 pt-3 upper center">Skills to build <a class="subtitle1" href="/">a better future</a></div>
+                </div>            
+                <div class="grid__col-3 flex-center-r pt-5 pr-5">
+                    <button class="button-lg-sq user"><i class="fa fa-user"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="mo">
+            <div class="grid">
+                <div class="grid__col-2 flex-center-b">
+                    <button class="button-sm home"><i class="fa fa-home"></i></button>
+                </div>
+                <div class="grid__col-8 flex-center-b">
+                    <div class="center">
+                        <h1 class="subtitle2 m-0">Skillzage</h1>
+                        <div class="text-smaller upper">Skills to build <a class="text-smaller upper" href="login.html">a better future</a></div>
+                    </div>
+                </div>
+                <div class="grid__col-2 flex-center-b">
+                    <button class="button-sm user"><i class="fa fa-user"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="onboardingBox">
+        <div class="container">                                
+            <div class="subtitle1 center">Please fill in the details</div>
+            <div class="grid-wrap">
+                <div class="grid__col-6">
+                    <div class="input-group req">
+                        <input type="text" placeholder="First Name" [(ngModel)]="onBoardingPayload.firstname">
+                    </div>
+                    <div class="input-group req">
+                        <input type="text" placeholder="Last Name" [(ngModel)]="onBoardingPayload.lastname">
+                    </div>
+                    <div class="input-group req">
+                        <input type="text" placeholder="Email ID" [(ngModel)]="onBoardingPayload.email">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="institution Name" [(ngModel)]="onBoardingPayload.institutionName">
+                    </div>                    
+                </div>
+                <div class="grid__col-6">
+                    <div class="input-group">
+                        <input type="text" placeholder="Institution ID" [(ngModel)]="onBoardingPayload.institutionID">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Phone Number" [(ngModel)]="onBoardingPayload.phoneNumber">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Address 1" [(ngModel)]="onBoardingPayload.address1">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Address 2" [(ngModel)]="onBoardingPayload.address2">
+                    </div>
+                    <div class="input-group text-small left mt-2">
+                        <span class="req">*</span> Mandatory fields
+                    </div>
+                </div>
+            </div>
+            <div class="submit flex-center-h">
+                <button class="button em" (click)="doSignupPost()">Start learning</button>                    
+            </div> 
+           
+        </div>
+    </main>
+    <footer>
+        <div class="grid-footer">
+            <div><a href="/"><i class="fa fa-home"></i></a></div>
+            <div><a href="/"><i class="fa fa-book-open"></i></a></div>
+            <div><a href="/"><i class="fa fa-search"></i></a></div>
+            <div><a href="/"><i class="fa fa-bell"></i></a></div>
+            <div><a href="/"><i class="fa fa-user"></i></a></div>
+        </div>
+    </footer>
+    <div class="gradient2"></div>
+    <div class="overlay" onclick="popup()"></div>
+        <div class="popup">
+            <div class="upload">
+                <div class="text-medium-bold">Name Surname</div>
+                <div class="image"><img src="../../assets/img/upload.png" alt=""></div>
+                <div class="buttons flex-lra">
+                    <button class="button-md-sm primary">Change</button>
+                    <button class="button-md-sm">Delete</button>
+                </div>
+            </div>
+        </div>
+   
+
+

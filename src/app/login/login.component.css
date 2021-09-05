@@ -1,0 +1,6527 @@
+
+@import url("../../assets/css/fonts/fa513/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  line-height: 1.15
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto
+}
+
+main,
+header,
+footer,
+div {
+  display: block;
+  position: relative;
+  box-sizing: border-box
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+a {
+  background-color: transparent
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+b,
+strong {
+  font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -0.25em
+}
+
+sup {
+  top: -0.5em
+}
+
+img {
+  border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0
+}
+
+button,
+input {
+  overflow: visible
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+progress {
+  vertical-align: baseline
+}
+
+textarea {
+  overflow: auto
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+details {
+  display: block
+}
+
+summary {
+  display: list-item
+}
+
+template {
+  display: none
+}
+
+[hidden] {
+  display: none
+}
+
+*:focus {
+  outline: none
+}
+
+.nowrap {
+  white-space: nowrap
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p {
+  padding: 0;
+  margin: 0
+}
+
+div {
+  width: auto;
+  height: auto
+}
+
+.gradient,
+.gradient2,
+body.land .grad-land {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 360px;
+  z-index: -1
+}
+
+.gradient2 {
+  background: linear-gradient(180deg, #FDE5AB 0%, #FFFCF5 54.17%, #fff 100%) no-repeat;
+  height: 100%
+}
+
+.gradient {
+  background: linear-gradient(180deg, #FA8531 0%, rgba(251, 191, 49, 0.71) 20%, rgba(255, 255, 255, 0) 100%) no-repeat;
+  opacity: 0.68;
+  height: 70%
+}
+
+.shadow,
+header.adm,
+body.land main .land-4 .media,
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody,
+main .cards .card,
+.chatbox .chatbody {
+  box-shadow: 0px 4px 32px rgba(159, 171, 186, 0.36)
+}
+
+.w100,
+.popup .manage-user .button .button,
+table,
+table thead,
+table tbody,
+header,
+body.land main .land-1>div,
+body.land main .land-4>div.wrap,
+.login-box .login-form,
+.mygrid6,
+.paysystems,
+.r-box,
+body.land main .land-4 .media,
+.chatbox .chatbody,
+.r-box .container,
+body.land main .land-4 .media .container,
+.chatbox .chatbody .container,
+.r-box .container.career-info form .input-group,
+body.land main .land-4 .media .container.career-info form .input-group,
+.chatbox .chatbody .container.career-info form .input-group,
+.r-box .container.career-info form .input-group-dbl,
+body.land main .land-4 .media .container.career-info form .input-group-dbl,
+.chatbox .chatbody .container.career-info form .input-group-dbl,
+.r-box .container.career-info form .input-group-trpl,
+body.land main .land-4 .media .container.career-info form .input-group-trpl,
+.chatbox .chatbody .container.career-info form .input-group-trpl,
+main .top-search-form button,
+main .top-search-form,
+main .cards .card>div,
+.q-box,
+.q-box .q-body .item-body .line,
+.chatbox .chatbody .chatform,
+footer {
+  width: 100%
+}
+
+.h100,
+header.adm>.grid,
+main .courses .course,
+main .courses-grid .course,
+main .courses .course>div,
+main .courses-grid .course>div,
+.chatbox .chatbody .chatform form,
+.chatbox .chatbody .chatform form>div,
+.login-box {
+  height: 100%
+}
+
+textarea,
+.wrapper,
+.q-box .q-body .item-body .line svg,
+.chatbox .chatbar .avatar .icon img,
+.chatbox .chatbody .chatlist .msg .avatar img {
+  width: 100%;
+  height: 100%
+}
+
+.container {
+  width: 100%;
+  height: auto
+}
+
+h2,
+.h2,
+h3,
+.h3,
+body.land main .land-1 h1,
+body.land footer .col-3 .totop a,
+.plans .plan .price,
+h4,
+.h4,
+.subtitle2,
+body.land footer .col-1 .logan,
+.price,
+.text-medium,
+.text-medium-bold,
+.button.fb,
+.button.em,
+.button.em50,
+.button.li,
+.button.lg,
+.button.md,
+.button.bs,
+.button.bs-gr,
+.button.medium,
+.button-sm.fb,
+.button-sm.li,
+.button-sm.Go,
+.button-sm.home,
+.button-sm.user,
+.button-sm.esm,
+.button-lg-sq.home,
+.button-lg-sq.user,
+.button-md-sm,
+.button-md-sm.primary,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.button-round.send,
+.button-round.add,
+.button-round.big,
+header.adm .admMenu a,
+header.adm .admIcons .fb,
+header.adm .admIcons .Tw,
+header.adm .admIcons .li,
+header.adm .admIcons .In,
+body.land header .menu a,
+body.land main .land-3 .media .offer .title,
+body.land main .land-4 .media .offer .title,
+.dash-box .title .lv,
+.plans .plan .get,
+main .cards .card .footer .date,
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for,
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.dash-box .title .lb,
+.dash-box .subtitle,
+.plans .plan .discount,
+.text-small,
+textarea,
+p,
+table tbody td,
+body.land main .land-1 .offer p,
+body.land footer a,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p,
+main .cert-list>div .item,
+.q-box .q-body .item-body,
+.plans .plan .list,
+a,
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input,
+.input-search input,
+main .cards .card .content,
+.text-large,
+body.land main .land-4 .media h4,
+.q-box .q-title,
+.subtitle1,
+body.land main .land-2 h2,
+body.land main .land-3 h2,
+body.land main .land-4 h2,
+body.land main .land-3 h3,
+body.land main .land-4 h3,
+main .pagetitle h1,
+main .pagetitle h2,
+.checkout h2,
+.plans .plan .title,
+main .top-search-form .h3,
+body.land main .top-search-form .land-1 h1,
+body.land main .land-1 .top-search-form h1,
+main .top-search-form body.land footer .col-3 .totop a,
+body.land footer .col-3 .totop main .top-search-form a,
+main .top-search-form .plans .plan .price,
+.plans .plan main .top-search-form .price,
+main .cards .card .title,
+h1,
+.h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  letter-spacing: -0.005em;
+  color: #000000
+}
+
+h2,
+.h2,
+h3,
+.h3,
+body.land main .land-1 h1,
+body.land footer .col-3 .totop a,
+.plans .plan .price,
+h4,
+.h4,
+.subtitle2,
+body.land footer .col-1 .logan,
+.price,
+.text-medium,
+.text-medium-bold,
+.button.fb,
+.button.em,
+.button.em50,
+.button.li,
+.button.lg,
+.button.md,
+.button.bs,
+.button.bs-gr,
+.button.medium,
+.button-sm.fb,
+.button-sm.li,
+.button-sm.Go,
+.button-sm.home,
+.button-sm.user,
+.button-sm.esm,
+.button-lg-sq.home,
+.button-lg-sq.user,
+.button-md-sm,
+.button-md-sm.primary,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.button-round.send,
+.button-round.add,
+.button-round.big,
+header.adm .admMenu a,
+header.adm .admIcons .fb,
+header.adm .admIcons .Tw,
+header.adm .admIcons .li,
+header.adm .admIcons .In,
+body.land header .menu a,
+body.land main .land-3 .media .offer .title,
+body.land main .land-4 .media .offer .title,
+.dash-box .title .lv,
+.plans .plan .get,
+main .cards .card .footer .date,
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for,
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.dash-box .title .lb,
+.dash-box .subtitle,
+.plans .plan .discount,
+.text-small,
+textarea,
+p,
+table tbody td,
+body.land main .land-1 .offer p,
+body.land footer a,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p,
+main .cert-list>div .item,
+.q-box .q-body .item-body,
+.plans .plan .list,
+a,
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input,
+.input-search input,
+main .cards .card .content,
+.text-large,
+body.land main .land-4 .media h4,
+.q-box .q-title,
+.subtitle1,
+body.land main .land-2 h2,
+body.land main .land-3 h2,
+body.land main .land-4 h2,
+body.land main .land-3 h3,
+body.land main .land-4 h3,
+main .pagetitle h1,
+main .pagetitle h2,
+.checkout h2,
+.plans .plan .title,
+main .top-search-form .h3,
+body.land main .top-search-form .land-1 h1,
+body.land main .land-1 .top-search-form h1,
+main .top-search-form body.land footer .col-3 .totop a,
+body.land footer .col-3 .totop main .top-search-form a,
+main .top-search-form .plans .plan .price,
+.plans .plan main .top-search-form .price,
+main .cards .card .title,
+h1,
+.h1 {
+  font-size: 54px
+}
+
+@media screen and (min-width: 360px) {
+
+  h2,
+  .h2,
+  h3,
+  .h3,
+  body.land main .land-1 h1,
+  body.land footer .col-3 .totop a,
+  .plans .plan .price,
+  h4,
+  .h4,
+  .subtitle2,
+  body.land footer .col-1 .logan,
+  .price,
+  .text-medium,
+  .text-medium-bold,
+  .button.fb,
+  .button.em,
+  .button.em50,
+  .button.li,
+  .button.lg,
+  .button.md,
+  .button.bs,
+  .button.bs-gr,
+  .button.medium,
+  .button-sm.fb,
+  .button-sm.li,
+  .button-sm.Go,
+  .button-sm.home,
+  .button-sm.user,
+  .button-sm.esm,
+  .button-lg-sq.home,
+  .button-lg-sq.user,
+  .button-md-sm,
+  .button-md-sm.primary,
+  .button-round,
+  .button-round.txt,
+  .button-round.primary,
+  .button-round.send,
+  .button-round.add,
+  .button-round.big,
+  header.adm .admMenu a,
+  header.adm .admIcons .fb,
+  header.adm .admIcons .Tw,
+  header.adm .admIcons .li,
+  header.adm .admIcons .In,
+  body.land header .menu a,
+  body.land main .land-3 .media .offer .title,
+  body.land main .land-4 .media .offer .title,
+  .dash-box .title .lv,
+  .plans .plan .get,
+  main .cards .card .footer .date,
+  .text-small-bold,
+  body.land footer .col-1 .slogan,
+  .r-box .container p.title,
+  .chatbox .chatbody .container p.title,
+  .r-box .adm-courses .course a,
+  body.land main .land-4 .media .adm-courses .course a,
+  .chatbox .chatbody .adm-courses .course a,
+  main .courses .course a,
+  main .courses-grid .course a,
+  .q-box .q-body .item-title,
+  .plans .plan .for,
+  .text-smaller-regular,
+  table thead th,
+  body.land main .land-3 .media .offer p,
+  body.land main .land-4 .media .offer p,
+  body.land main .land-4 .media .content p,
+  .chatbox .chatbody .chatlist .msg .msg,
+  .chatbox .chatbody .chatlist .msg.my .time,
+  .plans .plan .price-text,
+  .headbg>div p,
+  .date,
+  .text-smaller,
+  .dash-box .title .lb,
+  .dash-box .subtitle,
+  .plans .plan .discount,
+  .text-small,
+  textarea,
+  p,
+  table tbody td,
+  body.land main .land-1 .offer p,
+  body.land footer a,
+  .r-box .container p,
+  body.land main .land-4 .media .container p,
+  .chatbox .chatbody .container p,
+  main .cert-list>div .item,
+  .q-box .q-body .item-body,
+  .plans .plan .list,
+  a,
+  .input-group input,
+  .input-group-dbl input,
+  .input-group-trpl input,
+  .input-search input,
+  main .cards .card .content,
+  .text-large,
+  body.land main .land-4 .media h4,
+  .q-box .q-title,
+  .subtitle1,
+  body.land main .land-2 h2,
+  body.land main .land-3 h2,
+  body.land main .land-4 h2,
+  body.land main .land-3 h3,
+  body.land main .land-4 h3,
+  main .pagetitle h1,
+  main .pagetitle h2,
+  .checkout h2,
+  .plans .plan .title,
+  main .top-search-form .h3,
+  body.land main .top-search-form .land-1 h1,
+  body.land main .land-1 .top-search-form h1,
+  main .top-search-form body.land footer .col-3 .totop a,
+  body.land footer .col-3 .totop main .top-search-form a,
+  main .top-search-form .plans .plan .price,
+  .plans .plan main .top-search-form .price,
+  main .cards .card .title,
+  h1,
+  .h1 {
+    font-size: calc(54px + 0 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  h2,
+  .h2,
+  h3,
+  .h3,
+  body.land main .land-1 h1,
+  body.land footer .col-3 .totop a,
+  .plans .plan .price,
+  h4,
+  .h4,
+  .subtitle2,
+  body.land footer .col-1 .logan,
+  .price,
+  .text-medium,
+  .text-medium-bold,
+  .button.fb,
+  .button.em,
+  .button.em50,
+  .button.li,
+  .button.lg,
+  .button.md,
+  .button.bs,
+  .button.bs-gr,
+  .button.medium,
+  .button-sm.fb,
+  .button-sm.li,
+  .button-sm.Go,
+  .button-sm.home,
+  .button-sm.user,
+  .button-sm.esm,
+  .button-lg-sq.home,
+  .button-lg-sq.user,
+  .button-md-sm,
+  .button-md-sm.primary,
+  .button-round,
+  .button-round.txt,
+  .button-round.primary,
+  .button-round.send,
+  .button-round.add,
+  .button-round.big,
+  header.adm .admMenu a,
+  header.adm .admIcons .fb,
+  header.adm .admIcons .Tw,
+  header.adm .admIcons .li,
+  header.adm .admIcons .In,
+  body.land header .menu a,
+  body.land main .land-3 .media .offer .title,
+  body.land main .land-4 .media .offer .title,
+  .dash-box .title .lv,
+  .plans .plan .get,
+  main .cards .card .footer .date,
+  .text-small-bold,
+  body.land footer .col-1 .slogan,
+  .r-box .container p.title,
+  .chatbox .chatbody .container p.title,
+  .r-box .adm-courses .course a,
+  body.land main .land-4 .media .adm-courses .course a,
+  .chatbox .chatbody .adm-courses .course a,
+  main .courses .course a,
+  main .courses-grid .course a,
+  .q-box .q-body .item-title,
+  .plans .plan .for,
+  .text-smaller-regular,
+  table thead th,
+  body.land main .land-3 .media .offer p,
+  body.land main .land-4 .media .offer p,
+  body.land main .land-4 .media .content p,
+  .chatbox .chatbody .chatlist .msg .msg,
+  .chatbox .chatbody .chatlist .msg.my .time,
+  .plans .plan .price-text,
+  .headbg>div p,
+  .date,
+  .text-smaller,
+  .dash-box .title .lb,
+  .dash-box .subtitle,
+  .plans .plan .discount,
+  .text-small,
+  textarea,
+  p,
+  table tbody td,
+  body.land main .land-1 .offer p,
+  body.land footer a,
+  .r-box .container p,
+  body.land main .land-4 .media .container p,
+  .chatbox .chatbody .container p,
+  main .cert-list>div .item,
+  .q-box .q-body .item-body,
+  .plans .plan .list,
+  a,
+  .input-group input,
+  .input-group-dbl input,
+  .input-group-trpl input,
+  .input-search input,
+  main .cards .card .content,
+  .text-large,
+  body.land main .land-4 .media h4,
+  .q-box .q-title,
+  .subtitle1,
+  body.land main .land-2 h2,
+  body.land main .land-3 h2,
+  body.land main .land-4 h2,
+  body.land main .land-3 h3,
+  body.land main .land-4 h3,
+  main .pagetitle h1,
+  main .pagetitle h2,
+  .checkout h2,
+  .plans .plan .title,
+  main .top-search-form .h3,
+  body.land main .top-search-form .land-1 h1,
+  body.land main .land-1 .top-search-form h1,
+  main .top-search-form body.land footer .col-3 .totop a,
+  body.land footer .col-3 .totop main .top-search-form a,
+  main .top-search-form .plans .plan .price,
+  .plans .plan main .top-search-form .price,
+  main .cards .card .title,
+  h1,
+  .h1 {
+    font-size: 54px
+  }
+}
+
+h2,
+.h2 {
+  line-height: 110%;
+  letter-spacing: -0.01em
+}
+
+h2,
+.h2 {
+  font-size: 40px
+}
+
+@media screen and (min-width: 360px) {
+
+  h2,
+  .h2 {
+    font-size: calc(40px + 0 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  h2,
+  .h2 {
+    font-size: 40px
+  }
+}
+
+h3,
+.h3,
+body.land main .land-1 h1,
+body.land footer .col-3 .totop a,
+.plans .plan .price {
+  line-height: 110%
+}
+
+h3,
+.h3,
+body.land main .land-1 h1,
+body.land footer .col-3 .totop a,
+.plans .plan .price {
+  font-size: 36px
+}
+
+@media screen and (min-width: 360px) {
+
+  h3,
+  .h3,
+  body.land main .land-1 h1,
+  body.land footer .col-3 .totop a,
+  .plans .plan .price {
+    font-size: calc(36px + 0 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  h3,
+  .h3,
+  body.land main .land-1 h1,
+  body.land footer .col-3 .totop a,
+  .plans .plan .price {
+    font-size: 36px
+  }
+}
+
+h4,
+.h4 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 110%
+}
+
+h4,
+.h4 {
+  font-size: 28px
+}
+
+@media screen and (min-width: 360px) {
+
+  h4,
+  .h4 {
+    font-size: calc(28px + 0 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  h4,
+  .h4 {
+    font-size: 28px
+  }
+}
+
+.subtitle2,
+body.land footer .col-1 .logan,
+.price,
+.text-medium,
+.text-medium-bold,
+.button.fb,
+.button.em,
+.button.em50,
+.button.li,
+.button.lg,
+.button.md,
+.button.bs,
+.button.bs-gr,
+.button.medium,
+.button-sm.fb,
+.button-sm.li,
+.button-sm.Go,
+.button-sm.home,
+.button-sm.user,
+.button-sm.esm,
+.button-lg-sq.home,
+.button-lg-sq.user,
+.button-md-sm,
+.button-md-sm.primary,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.button-round.send,
+.button-round.add,
+.button-round.big,
+header.adm .admMenu a,
+header.adm .admIcons .fb,
+header.adm .admIcons .Tw,
+header.adm .admIcons .li,
+header.adm .admIcons .In,
+body.land header .menu a,
+body.land main .land-3 .media .offer .title,
+body.land main .land-4 .media .offer .title,
+.dash-box .title .lv,
+.plans .plan .get,
+main .cards .card .footer .date,
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for,
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.dash-box .title .lb,
+.dash-box .subtitle,
+.plans .plan .discount,
+.text-small,
+textarea,
+p,
+table tbody td,
+body.land main .land-1 .offer p,
+body.land footer a,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p,
+main .cert-list>div .item,
+.q-box .q-body .item-body,
+.plans .plan .list,
+a,
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input,
+.input-search input,
+main .cards .card .content,
+.text-large,
+body.land main .land-4 .media h4,
+.q-box .q-title,
+.subtitle1,
+body.land main .land-1 h1,
+body.land main .land-2 h2,
+body.land main .land-3 h2,
+body.land main .land-4 h2,
+body.land main .land-3 h3,
+body.land main .land-4 h3,
+main .pagetitle h1,
+main .pagetitle h2,
+.checkout h2,
+.plans .plan .title,
+main .top-search-form .h3,
+body.land main .top-search-form .land-1 h1,
+body.land main .land-1 .top-search-form h1,
+main .top-search-form body.land footer .col-3 .totop a,
+body.land footer .col-3 .totop main .top-search-form a,
+main .top-search-form .plans .plan .price,
+.plans .plan main .top-search-form .price,
+main .cards .card .title {
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.005em
+}
+
+.subtitle2,
+body.land footer .col-1 .logan,
+.price {
+  font-size: 22px;
+  letter-spacing: -0.01em
+}
+
+.text-medium,
+.text-medium-bold,
+.button.fb,
+.button.em,
+.button.em50,
+.button.li,
+.button.lg,
+.button.md,
+.button.bs,
+.button.bs-gr,
+.button.medium,
+.button-sm.fb,
+.button-sm.li,
+.button-sm.Go,
+.button-sm.home,
+.button-sm.user,
+.button-sm.esm,
+.button-lg-sq.home,
+.button-lg-sq.user,
+.button-md-sm,
+.button-md-sm.primary,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.button-round.send,
+.button-round.add,
+.button-round.big,
+header.adm .admMenu a,
+header.adm .admIcons .fb,
+header.adm .admIcons .Tw,
+header.adm .admIcons .li,
+header.adm .admIcons .In,
+body.land header .menu a,
+body.land main .land-3 .media .offer .title,
+body.land main .land-4 .media .offer .title,
+.dash-box .title .lv,
+.plans .plan .get,
+main .cards .card .footer .date,
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for,
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.dash-box .title .lb,
+.dash-box .subtitle,
+.plans .plan .discount,
+.text-small,
+textarea,
+p,
+table tbody td,
+body.land main .land-1 .offer p,
+body.land footer a,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p,
+main .cert-list>div .item,
+.q-box .q-body .item-body,
+.plans .plan .list,
+a,
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input,
+.input-search input,
+main .cards .card .content,
+.text-large,
+body.land main .land-4 .media h4,
+.q-box .q-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em
+}
+
+.text-medium,
+.text-medium-bold,
+.button.fb,
+.button.em,
+.button.em50,
+.button.li,
+.button.lg,
+.button.md,
+.button.bs,
+.button.bs-gr,
+.button.medium,
+.button-sm.fb,
+.button-sm.li,
+.button-sm.Go,
+.button-sm.home,
+.button-sm.user,
+.button-sm.esm,
+.button-lg-sq.home,
+.button-lg-sq.user,
+.button-md-sm,
+.button-md-sm.primary,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.button-round.send,
+.button-round.add,
+.button-round.big,
+header.adm .admMenu a,
+header.adm .admIcons .fb,
+header.adm .admIcons .Tw,
+header.adm .admIcons .li,
+header.adm .admIcons .In,
+body.land header .menu a,
+body.land main .land-3 .media .offer .title,
+body.land main .land-4 .media .offer .title,
+.dash-box .title .lv,
+.plans .plan .get,
+main .cards .card .footer .date {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em
+}
+
+.text-medium {
+  font-weight: 500
+}
+
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for,
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.dash-box .title .lb,
+.dash-box .title .lv,
+.dash-box .subtitle,
+.plans .plan .discount,
+.text-small,
+textarea,
+p,
+.button-md-sm,
+.button-md-sm.primary,
+table tbody td,
+body.land main .land-1 .offer p,
+body.land footer a,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p,
+main .cert-list>div .item,
+.q-box .q-body .item-body,
+.plans .plan .list,
+a,
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input,
+.input-search input,
+main .cards .card .content {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em
+}
+
+.text-small-bold,
+body.land footer .col-1 .slogan,
+.r-box .container p.title,
+body.land main .land-4 .media .container p.title,
+.chatbox .chatbody .container p.title,
+.r-box .adm-courses .course a,
+body.land main .land-4 .media .adm-courses .course a,
+.chatbox .chatbody .adm-courses .course a,
+main .courses .course a,
+main .courses-grid .course a,
+.q-box .q-body .item-title,
+.plans .plan .for {
+  font-weight: 700
+}
+
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date,
+.text-smaller,
+.button-round,
+.button-round.txt,
+.button-round.primary,
+.dash-box .title .lb,
+.dash-box .title .lv,
+.dash-box .subtitle,
+.plans .plan .discount {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0
+}
+
+.text-smaller-regular,
+table thead th,
+body.land main .land-3 .media .offer p,
+body.land main .land-4 .media .offer p,
+body.land main .land-4 .media .content p,
+.chatbox .chatbody .chatlist .msg .msg,
+.chatbox .chatbody .chatlist .msg.my .time,
+.plans .plan .price-text,
+.headbg>div p,
+.date {
+  font-weight: 400
+}
+
+.primary-color,
+.dash-box .title .lv,
+.plans .plan .for,
+.plans .plan .price {
+  color: #FA8231
+}
+
+.primary-light-color {
+  color: #FFA76C
+}
+
+.black {
+  color: #000000
+}
+
+.black1 {
+  color: #11283F
+}
+
+.black2,
+.dash-box .subtitle {
+  color: #4B6584
+}
+
+a {
+  text-decoration: none;
+  color: #FA8231 !important
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a .fa-edit:hover,
+a .fa-times:hover {
+  color: red
+}
+
+.upper {
+  text-transform: uppercase
+}
+
+.lower {
+  text-transform: lowercase
+}
+
+.striped {
+  text-decoration: line-through;
+  color: #9FABBA
+}
+
+.grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.grid>.grid__col-1 {
+  box-sizing: border-box;
+  flex: 0 0 8.33333%
+}
+
+.grid>.grid__col-2 {
+  box-sizing: border-box;
+  flex: 0 0 16.66667%
+}
+
+.grid>.grid__col-3 {
+  box-sizing: border-box;
+  flex: 0 0 25%
+}
+
+.grid>.grid__col-4 {
+  box-sizing: border-box;
+  flex: 0 0 33.33333%
+}
+
+.grid>.grid__col-5 {
+  box-sizing: border-box;
+  flex: 0 0 41.66667%
+}
+
+.grid>.grid__col-6 {
+  box-sizing: border-box;
+  flex: 0 0 50%
+}
+
+.grid>.grid__col-7 {
+  box-sizing: border-box;
+  flex: 0 0 58.33333%
+}
+
+.grid>.grid__col-8 {
+  box-sizing: border-box;
+  flex: 0 0 66.66667%
+}
+
+.grid>.grid__col-9 {
+  box-sizing: border-box;
+  flex: 0 0 75%
+}
+
+.grid>.grid__col-10 {
+  box-sizing: border-box;
+  flex: 0 0 83.33333%
+}
+
+.grid>.grid__col-11 {
+  box-sizing: border-box;
+  flex: 0 0 91.66667%
+}
+
+.grid>.grid__col-12 {
+  box-sizing: border-box;
+  flex: 0 0 100%
+}
+
+.grid-wrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.grid-wrap>.grid__col-1 {
+  box-sizing: border-box;
+  flex: 0 0 8.33333%
+}
+
+.grid-wrap>.grid__col-2 {
+  box-sizing: border-box;
+  flex: 0 0 16.66667%
+}
+
+.grid-wrap>.grid__col-3 {
+  box-sizing: border-box;
+  flex: 0 0 25%
+}
+
+.grid-wrap>.grid__col-4 {
+  box-sizing: border-box;
+  flex: 0 0 33.33333%
+}
+
+.grid-wrap>.grid__col-5 {
+  box-sizing: border-box;
+  flex: 0 0 41.66667%
+}
+
+.grid-wrap>.grid__col-6 {
+  box-sizing: border-box;
+  flex: 0 0 50%
+}
+
+.grid-wrap>.grid__col-7 {
+  box-sizing: border-box;
+  flex: 0 0 58.33333%
+}
+
+.grid-wrap>.grid__col-8 {
+  box-sizing: border-box;
+  flex: 0 0 66.66667%
+}
+
+.grid-wrap>.grid__col-9 {
+  box-sizing: border-box;
+  flex: 0 0 75%
+}
+
+.grid-wrap>.grid__col-10 {
+  box-sizing: border-box;
+  flex: 0 0 83.33333%
+}
+
+.grid-wrap>.grid__col-11 {
+  box-sizing: border-box;
+  flex: 0 0 91.66667%
+}
+
+.grid-wrap>.grid__col-12 {
+  box-sizing: border-box;
+  flex: 0 0 100%
+}
+
+.grid-wrap-around {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.grid-wrap-around>.grid__col-1 {
+  box-sizing: border-box;
+  flex: 0 0 8.33333%
+}
+
+.grid-wrap-around>.grid__col-2 {
+  box-sizing: border-box;
+  flex: 0 0 16.66667%
+}
+
+.grid-wrap-around>.grid__col-3 {
+  box-sizing: border-box;
+  flex: 0 0 25%
+}
+
+.grid-wrap-around>.grid__col-4 {
+  box-sizing: border-box;
+  flex: 0 0 33.33333%
+}
+
+.grid-wrap-around>.grid__col-5 {
+  box-sizing: border-box;
+  flex: 0 0 41.66667%
+}
+
+.grid-wrap-around>.grid__col-6 {
+  box-sizing: border-box;
+  flex: 0 0 50%
+}
+
+.grid-wrap-around>.grid__col-7 {
+  box-sizing: border-box;
+  flex: 0 0 58.33333%
+}
+
+.grid-wrap-around>.grid__col-8 {
+  box-sizing: border-box;
+  flex: 0 0 66.66667%
+}
+
+.grid-wrap-around>.grid__col-9 {
+  box-sizing: border-box;
+  flex: 0 0 75%
+}
+
+.grid-wrap-around>.grid__col-10 {
+  box-sizing: border-box;
+  flex: 0 0 83.33333%
+}
+
+.grid-wrap-around>.grid__col-11 {
+  box-sizing: border-box;
+  flex: 0 0 91.66667%
+}
+
+.grid-wrap-around>.grid__col-12 {
+  box-sizing: border-box;
+  flex: 0 0 100%
+}
+
+.grid-wrap-btw,
+main .courses-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.grid-wrap-btw>.grid__col-1,
+main .courses-grid>.grid__col-1 {
+  box-sizing: border-box;
+  flex: 0 0 8.33333%
+}
+
+.grid-wrap-btw>.grid__col-2,
+main .courses-grid>.grid__col-2 {
+  box-sizing: border-box;
+  flex: 0 0 16.66667%
+}
+
+.grid-wrap-btw>.grid__col-3,
+main .courses-grid>.grid__col-3 {
+  box-sizing: border-box;
+  flex: 0 0 25%
+}
+
+.grid-wrap-btw>.grid__col-4,
+main .courses-grid>.grid__col-4 {
+  box-sizing: border-box;
+  flex: 0 0 33.33333%
+}
+
+.grid-wrap-btw>.grid__col-5,
+main .courses-grid>.grid__col-5 {
+  box-sizing: border-box;
+  flex: 0 0 41.66667%
+}
+
+.grid-wrap-btw>.grid__col-6,
+main .courses-grid>.grid__col-6 {
+  box-sizing: border-box;
+  flex: 0 0 50%
+}
+
+.grid-wrap-btw>.grid__col-7,
+main .courses-grid>.grid__col-7 {
+  box-sizing: border-box;
+  flex: 0 0 58.33333%
+}
+
+.grid-wrap-btw>.grid__col-8,
+main .courses-grid>.grid__col-8 {
+  box-sizing: border-box;
+  flex: 0 0 66.66667%
+}
+
+.grid-wrap-btw>.grid__col-9,
+main .courses-grid>.grid__col-9 {
+  box-sizing: border-box;
+  flex: 0 0 75%
+}
+
+.grid-wrap-btw>.grid__col-10,
+main .courses-grid>.grid__col-10 {
+  box-sizing: border-box;
+  flex: 0 0 83.33333%
+}
+
+.grid-wrap-btw>.grid__col-11,
+main .courses-grid>.grid__col-11 {
+  box-sizing: border-box;
+  flex: 0 0 91.66667%
+}
+
+.grid-wrap-btw>.grid__col-12,
+main .courses-grid>.grid__col-12 {
+  box-sizing: border-box;
+  flex: 0 0 100%
+}
+
+.grid-footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.grid-footer>.grid__col-1 {
+  box-sizing: border-box;
+  flex: 0 0 20%
+}
+
+.grid-footer>.grid__col-2 {
+  box-sizing: border-box;
+  flex: 0 0 40%
+}
+
+.grid-footer>.grid__col-3 {
+  box-sizing: border-box;
+  flex: 0 0 60%
+}
+
+.grid-footer>.grid__col-4 {
+  box-sizing: border-box;
+  flex: 0 0 80%
+}
+
+.grid-footer>.grid__col-5 {
+  box-sizing: border-box;
+  flex: 0 0 100%
+}
+
+.m-0,
+table,
+table thead,
+table tbody,
+body.land footer,
+.r-box .adm-courses .course .img,
+body.land main .land-4 .media .adm-courses .course .img,
+.chatbox .chatbody .adm-courses .course .img,
+main .courses .course .img,
+main .courses-grid .course .img {
+  margin: 0 !important
+}
+
+.m-1 {
+  margin: 0.25rem !important
+}
+
+.m-2,
+.r-box .adm-courses .course,
+body.land main .land-4 .media .adm-courses .course,
+.chatbox .chatbody .adm-courses .course,
+main .courses .course,
+main .courses-grid .course {
+  margin: 0.5rem !important
+}
+
+.m-3 {
+  margin: 1rem !important
+}
+
+.m-4,
+body.land main .land-2>div.wrap,
+body.land main .land-3>div.wrap,
+body.land main .land-4>div.wrap {
+  margin: 1.5rem !important
+}
+
+.m-5 {
+  margin: 3rem !important
+}
+
+.mt-0 {
+  margin-top: 0 !important
+}
+
+.mr-0 {
+  margin-right: 0 !important
+}
+
+.mb-0 {
+  margin-bottom: 0 !important
+}
+
+.ml-0 {
+  margin-left: 0 !important
+}
+
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important
+}
+
+.my-0,
+body.land main .land-3>div.wrap,
+body.land main .land-4>div.wrap {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important
+}
+
+.mt-1,
+main .cert-list>div .grid {
+  margin-top: 0.25rem !important
+}
+
+.mr-1 {
+  margin-right: 0.25rem !important
+}
+
+.mb-1,
+.chatbox .chatbody .chatlist .msg {
+  margin-bottom: 0.25rem !important
+}
+
+.ml-1 {
+  margin-left: 0.25rem !important
+}
+
+.mx-1,
+.r-box .container.course-btns>div:nth-child(2),
+body.land main .land-4 .media .container.course-btns>div:nth-child(2),
+.chatbox .chatbody .container.course-btns>div:nth-child(2),
+.r-box .container .container.project-btns>div:nth-child(2),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(2),
+.r-box .container.course-btns>div:nth-child(3),
+body.land main .land-4 .media .container.course-btns>div:nth-child(3),
+.chatbox .chatbody .container.course-btns>div:nth-child(3),
+.r-box .container .container.project-btns>div:nth-child(3),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(3),
+.r-box .container.course-btns>div:nth-child(4),
+body.land main .land-4 .media .container.course-btns>div:nth-child(4),
+.chatbox .chatbody .container.course-btns>div:nth-child(4),
+.r-box .container .container.project-btns>div:nth-child(4),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(4) {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important
+}
+
+.my-1,
+.login-box .login-form .fluid-height .input-group,
+.login-box .login-form .fluid-height .input-group-dbl,
+.login-box .login-form .fluid-height .input-group-trpl {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important
+}
+
+.mr-2,
+.q-box .q-body .item-body .tag {
+  margin-right: 0.5rem !important
+}
+
+.mb-2,
+body.land main .land-4 h3,
+.q-box .q-body .item-body .tag,
+.chatbox .chatbody .chatlist {
+  margin-bottom: 0.5rem !important
+}
+
+.ml-2,
+.chatbox .chatbody .chatlist .msg .msg {
+  margin-left: 0.5rem !important
+}
+
+.mx-2,
+.upload-box>div,
+main .buttons-group .button,
+main .cards .card {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important
+}
+
+.my-2,
+table,
+body.land main .land-4 .media .button,
+.checkout .success {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important
+}
+
+.mt-3,
+.page.adm .input-group,
+.page.adm .input-group-dbl,
+.page.adm .input-group-trpl {
+  margin-top: 1rem !important
+}
+
+.mr-3 {
+  margin-right: 1rem !important
+}
+
+.mb-3,
+.button-round span,
+.button-round.txt span,
+.button-round.primary span,
+main .courses .course>div,
+main .courses-grid .course>div,
+main .courses-search-form {
+  margin-bottom: 1rem !important
+}
+
+.ml-3 {
+  margin-left: 1rem !important
+}
+
+.mx-3 {
+  margin-right: 1rem !important;
+  margin-left: 1rem !important
+}
+
+.my-3,
+.select,
+body.land footer .col-2,
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody,
+.chatbox .chatbody,
+.paysystems .paysys,
+.plans>div,
+.plans .plan .get {
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important
+}
+
+.mt-4,
+main .cards,
+.q-box .q-title {
+  margin-top: 1.5rem !important
+}
+
+.mr-4 {
+  margin-right: 1.5rem !important
+}
+
+.mb-4,
+body.land main .land-4 .media,
+main .cards>div {
+  margin-bottom: 1.5rem !important
+}
+
+.ml-4 {
+  margin-left: 1.5rem !important
+}
+
+.mx-4 {
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important
+}
+
+.my-4,
+.upload-box,
+.popup .upload .image,
+body.land main .land-2 .button,
+body.land main .land-3 .button,
+body.land main .land-4 .button {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important
+}
+
+.mt-5,
+body.land footer {
+  margin-top: 3rem !important
+}
+
+.mr-5 {
+  margin-right: 3rem !important
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important
+}
+
+.ml-5 {
+  margin-left: 3rem !important
+}
+
+.mx-5 {
+  margin-right: 3rem !important;
+  margin-left: 3rem !important
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important
+}
+
+.mt-auto {
+  margin-top: auto !important
+}
+
+.mr-auto {
+  margin-right: auto !important
+}
+
+.mb-auto {
+  margin-bottom: auto !important
+}
+
+.ml-auto {
+  margin-left: auto !important
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important
+}
+
+.my-auto {
+  margin-bottom: auto !important;
+  margin-top: auto !important
+}
+
+.p-0,
+table,
+table thead,
+table tbody,
+body.land footer,
+.r-box .adm-courses .course .img,
+body.land main .land-4 .media .adm-courses .course .img,
+.chatbox .chatbody .adm-courses .course .img,
+main .courses .course .img,
+main .courses-grid .course .img {
+  padding: 0 !important
+}
+
+.p-1,
+table thead th,
+table tbody td {
+  padding: 0.25rem !important
+}
+
+.p-2,
+textarea,
+.dash-box,
+.page,
+.r-box .container.career-info p img,
+body.land main .land-4 .media .container.career-info p img,
+.chatbox .chatbody .container.career-info p img,
+.back a {
+  padding: 0.5rem !important
+}
+
+.p-3,
+body.land main .land-3 .media,
+body.land main .land-4 .media {
+  padding: 1rem !important
+}
+
+.p-4,
+.popup .manage-user,
+main .tgl .tglhead,
+main .cards .card {
+  padding: 1.5rem !important
+}
+
+.p-5 {
+  padding: 3rem !important
+}
+
+.pt-0 {
+  padding-top: 0 !important
+}
+
+.pr-0 {
+  padding-right: 0 !important
+}
+
+.pb-0,
+.r-box .container,
+body.land main .land-4 .media .container,
+.chatbox .chatbody .container {
+  padding-bottom: 0 !important
+}
+
+.pl-0 {
+  padding-left: 0 !important
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important
+}
+
+.py-0,
+body.land main .land-4>div.wrap {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important
+}
+
+.pt-1 {
+  padding-top: 0.25rem !important
+}
+
+.pr-1,
+.page.adm .inst-management .container .upl .upl.img,
+.r-box .container .certificate-form .uplfile.img,
+body.land main .land-4 .media .container .certificate-form .uplfile.img,
+.chatbox .chatbody .container .certificate-form .uplfile.img,
+.r-box.course-management>div .upl.img,
+body.land main .land-4 .course-management.media>div .upl.img,
+.r-box.project-management>div .upl.img,
+body.land main .land-4 .project-management.media>div .upl.img,
+.chatbox .project-management.chatbody>div .upl.img,
+.chatbox .course-management.chatbody>div .upl.img {
+  padding-right: 0.25rem !important
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem !important
+}
+
+.pl-1,
+.page.adm .inst-management .container .upl .upl.video,
+.r-box.course-management>div .upl.video,
+body.land main .land-4 .course-management.media>div .upl.video,
+.r-box.project-management>div .upl.video,
+body.land main .land-4 .project-management.media>div .upl.video,
+.chatbox .project-management.chatbody>div .upl.video,
+.chatbox .course-management.chatbody>div .upl.video {
+  padding-left: 0.25rem !important
+}
+
+.px-1,
+.r-box .container.career-info .grid__col-6,
+body.land main .land-4 .media .container.career-info .grid__col-6,
+.chatbox .chatbody .container.career-info .grid__col-6,
+.r-box.course-management>div td .fas,
+body.land main .land-4 .course-management.media>div td .fas,
+.r-box.project-management>div td .fas,
+body.land main .land-4 .project-management.media>div td .fas,
+.chatbox .project-management.chatbody>div td .fas,
+.chatbox .course-management.chatbody>div td .fas {
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important
+}
+
+.py-1,
+body.land footer .col-1 .logan,
+body.land footer .col-1 .slogan {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important
+}
+
+.pt-2 {
+  padding-top: 0.5rem !important
+}
+
+.pr-2,
+.chatbox .chatbody .chatform form>div:first-child {
+  padding-right: 0.5rem !important
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem !important
+}
+
+.pl-2 {
+  padding-left: 0.5rem !important
+}
+
+.px-2,
+main .courses-search-form,
+main .cert-list>div .item {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important
+}
+
+.py-2,
+p,
+body.land main .land-4 .media h4,
+.r-box .container.career-info p,
+body.land main .land-4 .media .container.career-info p,
+.chatbox .chatbody .container.career-info p,
+.q-box .q-body .item-body .tag,
+.headbg>div .name,
+.chatbox .chatbody .chatlist .msg .msg,
+.date {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important
+}
+
+.pt-3 {
+  padding-top: 1rem !important
+}
+
+.pr-3,
+.chatbox .chatbody .chatlist {
+  padding-right: 1rem !important
+}
+
+.pb-3,
+.button-round span,
+.button-round.txt span,
+.button-round.primary span,
+.r-box .adm-courses,
+body.land main .land-4 .media .adm-courses,
+.chatbox .chatbody .adm-courses,
+main .courses .course>div>div,
+main .courses-grid .course>div>div {
+  padding-bottom: 1rem !important
+}
+
+.pl-3 {
+  padding-left: 1rem !important
+}
+
+.py-3 {
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important
+}
+
+.px-3,
+.popup .manage-user .grid__col-4,
+body.land footer .col-1,
+.page.adm .inst-management .container .grid__col-4,
+.r-box .container,
+body.land main .land-4 .media .container,
+.chatbox .chatbody .container,
+.q-box .q-body .item-body .tag,
+.chatbox .chatbody .chatlist .msg .msg {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important
+}
+
+.pt-4,
+body.land main .land-1 .media,
+.r-box .container,
+body.land main .land-4 .media .container,
+.chatbox .chatbody .container {
+  padding-top: 1.5rem !important
+}
+
+.pr-4,
+.page.adm .inst-management .container .upl>div,
+.r-box.course-management>div .grid__col-6:first-child,
+body.land main .land-4 .course-management.media>div .grid__col-6:first-child,
+.r-box.project-management>div .grid__col-6:first-child,
+body.land main .land-4 .project-management.media>div .grid__col-6:first-child,
+.chatbox .project-management.chatbody>div .grid__col-6:first-child,
+.chatbox .course-management.chatbody>div .grid__col-6:first-child {
+  padding-right: 1.5rem !important
+}
+
+.pb-4,
+.r-box .container:last-child,
+body.land main .land-4 .media .container:last-child,
+.chatbox .chatbody .container:last-child {
+  padding-bottom: 1.5rem !important
+}
+
+.pl-4,
+.r-box.course-management>div .grid__col-6:last-child,
+body.land main .land-4 .course-management.media>div .grid__col-6:last-child,
+.r-box.project-management>div .grid__col-6:last-child,
+body.land main .land-4 .project-management.media>div .grid__col-6:last-child,
+.chatbox .project-management.chatbody>div .grid__col-6:last-child,
+.chatbox .course-management.chatbody>div .grid__col-6:last-child {
+  padding-left: 1.5rem !important
+}
+
+.px-4,
+.close-popup,
+.onboardingBox .container .input-group,
+.onboardingBox .container .input-group-dbl,
+.onboardingBox .container .input-group-trpl {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important
+}
+
+.py-4,
+.close-popup,
+body.land main .land-3 h3,
+body.land main .land-4 h3,
+body.land footer,
+.r-box.course-management,
+body.land main .land-4 .course-management.media,
+.r-box.project-management,
+body.land main .land-4 .project-management.media,
+.chatbox .project-management.chatbody,
+.chatbox .course-management.chatbody,
+.chatbox .chatbody.r-box.project-management {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important
+}
+
+.pt-5 {
+  padding-top: 3rem !important
+}
+
+.pr-5 {
+  padding-right: 3rem !important
+}
+
+.pb-5 {
+  padding-bottom: 3rem !important
+}
+
+.pl-5,
+body.land footer .col-2 .menu>div {
+  padding-left: 3rem !important
+}
+
+.px-5,
+main .top-search-form button {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important
+}
+
+.flex,
+.flex-column,
+.chatbox .chatbody .chatlist .msg.my,
+.flex-center,
+.flex-center-col,
+.popup .upload,
+body.land main .land-1,
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody,
+.r-box .container.career-info form,
+body.land main .land-4 .media .container.career-info form,
+.chatbox .chatbody .container.career-info form,
+main .cards .card .footer,
+main .cards .card .footer .icon,
+.headbg,
+.headbg>div,
+.upload-box,
+.button-sm.esm i,
+header.adm .admMenu>div:nth-child(2),
+header.adm .admMenu>div:nth-child(3),
+body.land header .menu,
+body.land footer,
+body.land footer .col-3,
+.page.adm .buttons,
+.r-box .container.course-btns>div:nth-child(2),
+body.land main .land-4 .media .container.course-btns>div:nth-child(2),
+.chatbox .chatbody .container.course-btns>div:nth-child(2),
+.r-box .container .container.project-btns>div:nth-child(2),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(2),
+.r-box .container.course-btns>div:nth-child(3),
+body.land main .land-4 .media .container.course-btns>div:nth-child(3),
+.chatbox .chatbody .container.course-btns>div:nth-child(3),
+.r-box .container .container.project-btns>div:nth-child(3),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(3),
+.r-box .container.course-btns>div:nth-child(4),
+body.land main .land-4 .media .container.course-btns>div:nth-child(4),
+.chatbox .chatbody .container.course-btns>div:nth-child(4),
+.r-box .container .container.project-btns>div:nth-child(4),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(4),
+.r-box .container.ach-btns>div:last-child,
+body.land main .land-4 .media .container.ach-btns>div:last-child,
+.chatbox .chatbody .container.ach-btns>div:last-child,
+.r-box .adm-courses>div,
+body.land main .land-4 .media .adm-courses>div,
+.chatbox .chatbody .adm-courses>div,
+main .buttons-group,
+main .cards>div,
+.flex-center-v,
+body.land main .land-2,
+body.land main .land-3,
+body.land main .land-4,
+.flex-center-tb,
+main .cards .card,
+.plans>div,
+.flex-left-tb,
+.flex-center-h,
+.flex-center-b,
+.flex-center-l,
+.flex-chain-l,
+.q-box .q-body .item-body .matched-tags,
+.q-box .q-body .item-body .match-tags,
+header.adm .admMenu>div:nth-child(1),
+.r-box .container.course-btns>div:nth-child(1),
+body.land main .land-4 .media .container.course-btns>div:nth-child(1),
+.chatbox .chatbody .container.course-btns>div:nth-child(1),
+.r-box .container .container.project-btns>div:nth-child(1),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .chatlist .msg,
+.flex-center-r,
+.chatbox .chatbody .chatform form,
+.checkout .success,
+.flex-lr,
+.flex-lra,
+.flex-chain,
+.dash-box .title,
+.mygrid6,
+.paysystems,
+.r-box .container.course-btns,
+body.land main .land-4 .media .container.course-btns,
+.chatbox .chatbody .container.course-btns,
+.r-box .container .container.project-btns,
+.r-box .container .chatbox .chatbody .container.project-btns,
+body.land main .land-4 .media .container .container.project-btns,
+.chatbox .chatbody .container .container.project-btns,
+.r-box .container.ach-btns,
+body.land main .land-4 .media .container.ach-btns,
+.chatbox .chatbody .container.ach-btns,
+.r-box .container .float-fix,
+body.land main .land-4 .media .container .float-fix,
+.chatbox .chatbody .container .float-fix,
+.q-box .q-body .item-body .tags-left,
+.q-box .q-body .item-body .tags-right {
+  display: flex
+}
+
+.flex-column,
+.chatbox .chatbody .chatlist .msg.my {
+  flex-direction: column
+}
+
+.flex-center,
+.flex-center-col,
+.popup .upload,
+body.land main .land-1,
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody,
+.r-box .container.career-info form,
+body.land main .land-4 .media .container.career-info form,
+.chatbox .chatbody .container.career-info form,
+main .cards .card .footer,
+main .cards .card .footer .icon,
+.headbg,
+.headbg>div,
+.upload-box,
+.button-sm.esm i,
+header.adm .admMenu>div:nth-child(2),
+header.adm .admMenu>div:nth-child(3),
+body.land header .menu,
+body.land footer,
+body.land footer .col-3,
+.page.adm .buttons,
+.r-box .container.course-btns>div:nth-child(2),
+body.land main .land-4 .media .container.course-btns>div:nth-child(2),
+.chatbox .chatbody .container.course-btns>div:nth-child(2),
+.r-box .container .container.project-btns>div:nth-child(2),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(2),
+.r-box .container.course-btns>div:nth-child(3),
+body.land main .land-4 .media .container.course-btns>div:nth-child(3),
+.chatbox .chatbody .container.course-btns>div:nth-child(3),
+.r-box .container .container.project-btns>div:nth-child(3),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(3),
+.r-box .container.course-btns>div:nth-child(4),
+body.land main .land-4 .media .container.course-btns>div:nth-child(4),
+.chatbox .chatbody .container.course-btns>div:nth-child(4),
+.r-box .container .container.project-btns>div:nth-child(4),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(4),
+.r-box .container.ach-btns>div:last-child,
+body.land main .land-4 .media .container.ach-btns>div:last-child,
+.chatbox .chatbody .container.ach-btns>div:last-child,
+.r-box .adm-courses>div,
+body.land main .land-4 .media .adm-courses>div,
+.chatbox .chatbody .adm-courses>div,
+main .buttons-group,
+main .cards>div {
+  justify-content: center;
+  align-items: center
+}
+
+.flex-center-col,
+.popup .upload,
+body.land main .land-1,
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody,
+.r-box .container.career-info form,
+body.land main .land-4 .media .container.career-info form,
+.chatbox .chatbody .container.career-info form,
+main .cards .card .footer,
+main .cards .card .footer .icon,
+.headbg,
+.headbg>div {
+  flex-direction: column
+}
+
+.flex-center-v,
+body.land main .land-2,
+body.land main .land-3,
+body.land main .land-4 {
+  flex-direction: column;
+  align-items: center
+}
+
+.flex-center-tb,
+main .cards .card,
+.plans>div {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+.flex-left-tb {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between
+}
+
+.flex-center-h {
+  justify-content: center
+}
+
+.flex-center-b {
+  flex-direction: column;
+  align-items: center
+}
+
+.flex-center-b>* {
+  margin-top: auto
+}
+
+.flex-center-l,
+.flex-chain-l,
+.q-box .q-body .item-body .matched-tags,
+.q-box .q-body .item-body .match-tags,
+header.adm .admMenu>div:nth-child(1),
+.r-box .container.course-btns>div:nth-child(1),
+body.land main .land-4 .media .container.course-btns>div:nth-child(1),
+.chatbox .chatbody .container.course-btns>div:nth-child(1),
+.r-box .container .container.project-btns>div:nth-child(1),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .chatlist .msg {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.flex-center-r,
+.chatbox .chatbody .chatform form,
+.checkout .success {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center
+}
+
+.flex-lr,
+.flex-lra,
+.flex-chain,
+.dash-box .title {
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.flex-lra {
+  justify-content: space-around
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap !important
+}
+
+.flex-wrap,
+.flex-chain,
+.flex-chain-l,
+.q-box .q-body .item-body .matched-tags,
+.q-box .q-body .item-body .match-tags {
+  flex-wrap: wrap !important
+}
+
+.flex-grow {
+  flex-grow: 1
+}
+
+.flex-shrink {
+  flex-shrink: 0
+}
+
+.center,
+body.land main .land-1 h1,
+body.land main .land-2 h2,
+body.land main .land-3 h2,
+body.land main .land-4 h2,
+body.land main .land-3 h3,
+body.land main .land-4 h3,
+body.land main .land-4 .media h4,
+main .pagetitle,
+main .top-search-form .h3,
+main .top-search-form body.land footer .col-3 .totop a,
+body.land footer .col-3 .totop main .top-search-form a,
+main .top-search-form .plans .plan .price,
+.plans .plan main .top-search-form .price,
+main .tgl .tglhead,
+.q-box .q-title,
+.chatbox .chatbar .name,
+.paysystems .paysys,
+.plans .plan {
+  text-align: center
+}
+
+.centert,
+body.land main .land-1 .offer,
+body.land main .land-1 .offer .button,
+body.land main .land-2 .button,
+body.land main .land-3 .button,
+body.land main .land-4 .button,
+body.land main .land-3 .media,
+body.land main .land-4 .media,
+body.land main .land-4 .media .content,
+body.land footer .col-1,
+.page.adm .login-form,
+.page.adm .narrow,
+.r-box .adm-courses,
+body.land main .land-4 .media .adm-courses,
+.chatbox .chatbody .adm-courses,
+.r-box.course-management>div,
+body.land main .land-4 .course-management.media>div,
+.r-box.project-management>div,
+body.land main .land-4 .project-management.media>div,
+.chatbox .project-management.chatbody>div,
+.chatbox .course-management.chatbody>div,
+.chatbox .chatbody.r-box.project-management>div,
+main .courses,
+main .courses-grid,
+main .courses .course,
+main .courses-grid .course,
+main .courses-search-form,
+main .courses-grid>div,
+main .cards,
+main .cards .card .footer .date,
+.dot,
+.chatbox .chatbar .avatar .dot,
+.chatbox .chatbar .name,
+.checkout .success,
+.paysystems,
+.plans,
+.plans .plan .title,
+.plans .plan .for {
+  margin: 0 auto
+}
+
+.centerv,
+body.land footer .col-1,
+.page.adm .input-search {
+  margin: auto 0
+}
+
+.left,
+table tbody td,
+body.land footer .col-2 .menu>div,
+.dash-box .title .lb,
+.dash-box .subtitle,
+.r-box .adm-courses .course,
+body.land main .land-4 .media .adm-courses .course,
+.chatbox .chatbody .adm-courses .course,
+.date,
+.plans .plan .list {
+  text-align: left
+}
+
+.right,
+.dash-box .title .lv,
+.mycart .promoprice {
+  text-align: right
+}
+
+.inline {
+  display: inline-block
+}
+
+.bold,
+.dash-box .title .lv {
+  font-weight: bold
+}
+
+.italic {
+  font-style: italic
+}
+
+::placeholder {
+  color: #4B6584;
+  opacity: 1
+}
+
+:-ms-input-placeholder {
+  color: #4B6584
+}
+
+::-ms-input-placeholder {
+  color: #4B6584
+}
+
+.input-group,
+.input-group-dbl,
+.input-group-trpl {
+  width: 100%;
+  margin: 16px 0 0 0
+}
+
+.input-group input,
+.input-group-dbl input,
+.input-group-trpl input {
+  background-color: #F5F5F5;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 20px 24px 20px 32px
+}
+
+.input-group.req::after,
+.req.input-group-dbl::after,
+.req.input-group-trpl::after {
+  content: '*';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2.5rem;
+  color: red
+}
+
+.input-group .req,
+.input-group-dbl .req,
+.input-group-trpl .req {
+  color: red
+}
+
+.input-group-dbl {
+  height: 140px
+}
+
+.input-group-trpl {
+  height: 235px
+}
+
+.input-search input {
+  background-color: #F5F5F5;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 20px 24px 20px 32px
+}
+
+.input-search i {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+  right: 1rem;
+  color: #9FABBA;
+  font-size: 22px
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1
+}
+
+input[type="checkbox"]+span {
+  cursor: pointer
+}
+
+input[type="checkbox"]+span:before {
+  content: '';
+  border: 0px solid #4B6584;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5em;
+  vertical-align: -3px
+}
+
+input[type="checkbox"]:checked+span:before {
+  background-image: url("../../assets/img/checkmark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+  border-radius: 4px
+}
+
+input[type="checkbox"]:focus+span:before,
+input[type="checkbox"]:not(:disabled)+span:hover:before {
+  outline-color: transparent;
+  outline-width: 2px;
+  outline-style: dotted
+}
+
+input[type="checkbox"]:disabled+span {
+  cursor: default;
+  color: #000000;
+  opacity: 0.5
+}
+
+.flipswitch,
+.flipswitch-block,
+.flipswitch-active {
+  position: relative;
+  width: 135px
+}
+
+.flipswitch input[type=checkbox],
+.flipswitch-block input[type=checkbox],
+.flipswitch-active input[type=checkbox] {
+  display: none
+}
+
+.flipswitch .flipswitch-label,
+.flipswitch-block .flipswitch-label,
+.flipswitch-active .flipswitch-label {
+  display: block !important;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50px
+}
+
+.flipswitch .flipswitch-inner,
+.flipswitch-block .flipswitch-inner,
+.flipswitch-active .flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s
+}
+
+.flipswitch .flipswitch-inner::before,
+.flipswitch-block .flipswitch-inner::before,
+.flipswitch-active .flipswitch-inner::before,
+.flipswitch .flipswitch-inner::after,
+.flipswitch-block .flipswitch-inner::after,
+.flipswitch-active .flipswitch-inner::after {
+  float: left;
+  width: 50%;
+  height: 47px;
+  padding: 0;
+  line-height: 47px;
+  font-size: 14px;
+  color: white;
+  box-sizing: border-box
+}
+
+.flipswitch .flipswitch-inner:before,
+.flipswitch-block .flipswitch-inner:before,
+.flipswitch-active .flipswitch-inner:before {
+  content: "Enroll";
+  padding-left: 32px;
+  background-color: #FA8231;
+  color: #ffffff;
+  font-weight: bold
+}
+
+.flipswitch .flipswitch-inner:after,
+.flipswitch-block .flipswitch-inner:after,
+.flipswitch-active .flipswitch-inner:after {
+  content: "Non Enroll";
+  padding-right: 16px;
+  background-color: #9FABBA;
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold
+}
+
+.flipswitch .flipswitch-switch,
+.flipswitch-block .flipswitch-switch,
+.flipswitch-active .flipswitch-switch {
+  width: 38px;
+  margin: 5px;
+  background: #ffffff;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 87px;
+  transition: all 0.3s ease-in 0s
+}
+
+.flipswitch .flipswitch-switch:before,
+.flipswitch-block .flipswitch-switch:before,
+.flipswitch-active .flipswitch-switch:before {
+  content: "\00D7";
+  color: #9FABBA;
+  font-size: 2.1em;
+  padding-left: 8px;
+  font-weight: bold
+}
+
+.flipswitch .flipswitch-cb:checked+.flipswitch-label .flipswitch-inner,
+.flipswitch-block .flipswitch-cb:checked+.flipswitch-label .flipswitch-inner,
+.flipswitch-active .flipswitch-cb:checked+.flipswitch-label .flipswitch-inner {
+  margin-left: 0
+}
+
+.flipswitch .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch,
+.flipswitch-block .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch,
+.flipswitch-active .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch {
+  right: 0
+}
+
+.flipswitch .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before,
+.flipswitch-block .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before,
+.flipswitch-active .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before {
+  content: "\2714";
+  color: #FA8231;
+  font-size: 1.8em;
+  padding-left: 7px;
+  font-weight: bold
+}
+
+.flipswitch-block .flipswitch-inner:before,
+.flipswitch-active .flipswitch-inner:before {
+  content: "Unblock";
+  padding-left: 1.5rem;
+  text-align: left
+}
+
+.flipswitch-block .flipswitch-inner:after,
+.flipswitch-active .flipswitch-inner:after {
+  content: "Block";
+  padding-right: 1.5rem;
+  text-align: right
+}
+
+.flipswitch-block .flipswitch-switch:before,
+.flipswitch-active .flipswitch-switch:before {
+  padding-left: 0px
+}
+
+.flipswitch-block .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before,
+.flipswitch-active .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before {
+  padding-left: 0px
+}
+
+.flipswitch-active .flipswitch-inner:before {
+  content: "Active";
+  padding-left: 1.5rem;
+  text-align: left
+}
+
+.flipswitch-active .flipswitch-inner:after {
+  content: "Blocked";
+  padding-right: 1.5rem;
+  text-align: right
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1
+}
+
+input[type="radio"]+span {
+  cursor: pointer
+}
+
+input[type="radio"]+span:before {
+  content: '';
+  border: 0px solid #4B6584;
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  vertical-align: -3px
+}
+
+input[type="radio"]:checked+span:before {
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  border: 6px solid #4B6584
+}
+
+input[type="radio"]:focus+span:before,
+input[type="radio"]:not(:disabled)+span:hover:before {
+  outline-color: transparent;
+  outline-width: 2px;
+  outline-style: dotted
+}
+
+input[type="radio"]:disabled+span {
+  cursor: default;
+  opacity: 0.5
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-color: transparent;
+  background-image: none;
+  font-size: 14px;
+  color: #4B6584
+}
+
+select::-ms-expand {
+  display: none;
+  border: 0 !important
+}
+
+:root {
+  --select-border: #AAA;
+  --select-arrow: #AAA
+}
+
+.select {
+  width: 100%;
+  border: 0px solid;
+  border-radius: 8px;
+  padding: 20px 10px 20px 10px;
+  line-height: 1.1;
+  background-color: #F5F5F5;
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center
+}
+
+.select::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: #AAA;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  justify-self: end
+}
+
+select,
+.select:after {
+  grid-area: select;
+  cursor: pointer
+}
+
+textarea {
+  background-color: #F5F5F5;
+  color: #4B6584;
+  border-radius: 8px;
+  resize: none
+}
+
+.col-50 .input-group,
+.col-50 .input-group-dbl,
+.col-50 .input-group-trpl {
+  margin: 0
+}
+
+@media only screen and (min-width: 768px) {
+
+  .col-50 .input-group:first-child,
+  .col-50 .input-group-dbl:first-child,
+  .col-50 .input-group-trpl:first-child {
+    padding-right: .25rem
+  }
+
+  .col-50 .input-group:last-child,
+  .col-50 .input-group-dbl:last-child,
+  .col-50 .input-group-trpl:last-child {
+    padding-left: .25rem
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-50 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
+
+.upload-box i {
+  font-size: 28px;
+  color: #9FABBA
+}
+
+.scroll-x {
+  overflow-x: scroll
+}
+
+.noshadow {
+  box-shadow: none
+}
+
+.overlay {
+  display: none;
+  background-color: #4B6584;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .3s
+}
+
+.overlay.open {
+  display: block;
+  opacity: 0.7
+}
+
+.popup {
+  display: none;
+  opacity: 1;
+  position: absolute;
+  z-index: 101;
+  background-color: none;
+  padding: 0;
+  min-width: 30px;
+  min-height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s
+}
+
+.popup.open {
+  display: block;
+  opacity: 1
+}
+
+.popup .upload {
+  background-color: #ffffff;
+  width: 345px;
+  height: auto;
+  min-height: 285px;
+  border-radius: 8px
+}
+
+.popup .upload .image {
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  border-radius: 50%
+}
+
+.popup .upload .buttons {
+  width: 70%
+}
+
+.popup .manage-user {
+  background-color: #ffffff;
+  width: 1120px;
+  height: 610px;
+  border-radius: 16px
+}
+
+.popup .manage-user .select {
+  padding-left: 2rem
+}
+
+.popup .manage-user .buttons .logo {
+  width: 72px;
+  height: 72px
+}
+
+.popup .manage-user .buttons .logo img {
+  width: 100%;
+  border-radius: 50%
+}
+
+.popup .manage-user .flipswitch-active .flipswitch-switch::before {
+  padding-left: 7px
+}
+
+.popup .manage-user .flipswitch-active .flipswitch-cb:checked+.flipswitch-label .flipswitch-switch.flipswitch-switch:before {
+  padding-left: 7px
+}
+
+.close-popup {
+  position: absolute;
+  top: 0;
+  right: 0
+}
+
+.close-popup i:hover {
+  color: red
+}
+
+.cursor,
+.close-popup,
+.page.adm .input-search i:hover {
+  cursor: pointer
+}
+
+.wrapper {
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%
+}
+
+p {
+  line-height: 150%
+}
+
+.button.fb {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #4267B2;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 8px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.fb:hover {
+  color: #FED330
+}
+
+.button.em {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 8px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.em:hover {
+  color: #FED330
+}
+
+.button.em50 {
+  padding: 17px 22px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.em50:hover {
+  color: #FED330
+}
+
+.button.li {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #2867B2;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 8px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.li:hover {
+  color: #FED330
+}
+
+.button.lg {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.lg:hover {
+  color: #FED330
+}
+
+.button.md {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin: 0;
+  height: 54px;
+  width: 100%;
+  padding: 21px 24px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.md:hover {
+  color: #FED330
+}
+
+.button.bs {
+  padding: 20px 22px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.bs:hover {
+  color: #FED330
+}
+
+.button.bs-gr {
+  padding: 20px 22px;
+  color: #ffffff;
+  background-color: #9FABBA;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.bs-gr:hover {
+  color: #FED330
+}
+
+.button.medium {
+  padding: 20px 12px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin: 0;
+  height: 54px;
+  width: 100%;
+  padding: 20px 12px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button.medium:hover {
+  color: #FED330
+}
+
+@media only screen and (min-width: 768px) {
+  .button.fb {
+    padding: 21px 24px;
+    color: #ffffff;
+    background-color: #4267B2;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 16px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.fb:hover {
+    color: #FED330
+  }
+
+  .button.em {
+    padding: 21px 24px;
+    color: #ffffff;
+    background-color: #FA8231;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 16px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.em:hover {
+    color: #FED330
+  }
+
+  .button.em50 {
+    padding: 17px 22px;
+    color: #ffffff;
+    background-color: #FA8231;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 16px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.em50:hover {
+    color: #FED330
+  }
+
+  .button.li {
+    padding: 21px 24px;
+    color: #ffffff;
+    background-color: #2867B2;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 16px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.li:hover {
+    color: #FED330
+  }
+
+  .button.bs {
+    padding: 20px 22px;
+    color: #ffffff;
+    background-color: #FA8231;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 0px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.bs:hover {
+    color: #FED330
+  }
+
+  .button.bs-gr {
+    padding: 20px 22px;
+    color: #ffffff;
+    background-color: #9FABBA;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 0px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100%;
+    border: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .button.bs-gr:hover {
+    color: #FED330
+  }
+}
+
+.button-sm.fb {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #4267B2;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.fb i {
+  margin: 0
+}
+
+.button-sm.fb:hover {
+  color: #FED330
+}
+
+.button-sm.li {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #2867B2;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.li i {
+  margin: 0
+}
+
+.button-sm.li:hover {
+  color: #FED330
+}
+
+.button-sm.Go {
+  padding: 21px 24px;
+  color: #FA8231;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.Go i {
+  margin: 0
+}
+
+.button-sm.Go:hover {
+  color: #FED330
+}
+
+.button-sm.home {
+  padding: 21px 24px;
+  color: #FA8231;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.home i {
+  margin: 0
+}
+
+.button-sm.home:hover {
+  color: #FED330
+}
+
+.button-sm.user {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.user i {
+  margin: 0
+}
+
+.button-sm.user:hover {
+  color: #FED330
+}
+
+.button-sm.esm {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  padding: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-sm.esm i {
+  font-size: .7rem;
+  margin: 0 0 0 1px
+}
+
+.button-sm.esm:hover {
+  color: #FED330
+}
+
+.button-lg-sq.home {
+  padding: 21px 24px;
+  color: #FA8231;
+  background-color: #ffffff;
+  border-radius: 34px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  font-size: 2rem;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-lg-sq.home:hover {
+  color: #FED330
+}
+
+.button-lg-sq.user {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 34px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  font-size: 2rem;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-lg-sq.user:hover {
+  color: #FED330
+}
+
+.button-md-sm {
+  padding: 21px 24px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 2px solid #9FABBA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin: 0;
+  font-size: 14px;
+  height: 35px;
+  padding: 1rem 1.25rem;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-md-sm i {
+  font-size: 1.3rem;
+  padding: 0rem
+}
+
+.button-md-sm:hover {
+  color: #FED330
+}
+
+.button-md-sm.primary {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin: 0;
+  font-size: 14px;
+  height: 35px;
+  padding: 1rem 1.25rem;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-md-sm.primary i {
+  font-size: 1.3rem;
+  padding: 0rem
+}
+
+.button-md-sm.primary:hover {
+  color: #FED330
+}
+
+.button-round {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 2px solid #9FABBA;
+  width: auto;
+  min-width: 47px;
+  height: 47px;
+  margin: 0;
+  padding: 10px 11px;
+  white-space: nowrap;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round i {
+  margin: 0;
+  font-size: 1.2rem
+}
+
+.button-round img {
+  width: 22px;
+  height: 22px
+}
+
+.button-round:hover {
+  color: #FED330
+}
+
+.button-round.txt {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 2px solid #9FABBA;
+  width: auto;
+  height: 47px;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 12px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round.txt span.bold,
+.button-round.txt .dash-box .title span.lv,
+.dash-box .title .button-round.txt span.lv {
+  font-size: 14px
+}
+
+.button-round.txt i {
+  margin: 0;
+  font-size: 1.2rem
+}
+
+.button-round.txt:hover {
+  color: #FED330
+}
+
+.button-round.primary {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 0px;
+  width: auto;
+  height: 47px;
+  margin: 0;
+  padding: 10px 24px;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round.primary i {
+  margin: 0;
+  font-size: 1rem
+}
+
+.button-round.primary:hover {
+  color: #FED330
+}
+
+.button-round.send {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round.send i {
+  margin: 0;
+  font-size: 1.5rem
+}
+
+.button-round.send:hover {
+  color: #FED330
+}
+
+.button-round.add {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  padding: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round.add i {
+  font-size: 1rem
+}
+
+.button-round.add:hover {
+  color: #FED330
+}
+
+.button-round.big {
+  padding: 21px 24px;
+  color: #ffffff;
+  background-color: #FA8231;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 104px;
+  height: 104px;
+  padding: 0;
+  border-radius: 50%;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.button-round.big i {
+  font-size: 3rem
+}
+
+.button-round.big:hover {
+  color: #FED330
+}
+
+hr,
+.hr {
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #4B6584;
+  border-radius: 0px;
+  opacity: 0.2
+}
+
+table,
+table thead,
+table tbody {
+  border-spacing: 0
+}
+
+table thead {
+  background-color: #FEEBBF
+}
+
+table thead th {
+  color: #4B6584;
+  text-align: left;
+  border-bottom: 1px solid #9FABBA;
+  line-height: 0.8rem
+}
+
+table tbody tr.even {
+  background-color: #F5F5F5
+}
+
+table tbody tr.odd {
+  background-color: #ffffff
+}
+
+table tbody td {
+  color: #11283F
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: calc(100px - 10px);
+  position: fixed;
+  top: 0;
+  padding: 10px
+}
+
+header .dt {
+  display: none
+}
+
+header .mo {
+  display: block
+}
+
+header>div {
+  width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: calc(250px - 50px);
+    position: relative;
+    padding: 50px
+  }
+
+  header .dt {
+    display: block
+  }
+
+  header .mo {
+    display: none
+  }
+
+  header .subtitle1,
+  header body.land main .land-1 h1,
+  body.land main .land-1 header h1,
+  header body.land main .land-2 h2,
+  body.land main .land-2 header h2,
+  header body.land main .land-3 h2,
+  body.land main .land-3 header h2,
+  header body.land main .land-4 h2,
+  body.land main .land-4 header h2,
+  header body.land main .land-3 h3,
+  body.land main .land-3 header h3,
+  header body.land main .land-4 h3,
+  body.land main .land-4 header h3,
+  header main .pagetitle h1,
+  main .pagetitle header h1,
+  header main .pagetitle h2,
+  main .pagetitle header h2,
+  header .checkout h2,
+  .checkout header h2,
+  header .plans .plan .title,
+  .plans .plan header .title {
+    font-size: 18px
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 750px) {
+
+  header .subtitle1,
+  header body.land main .land-1 h1,
+  body.land main .land-1 header h1,
+  header body.land main .land-2 h2,
+  body.land main .land-2 header h2,
+  header body.land main .land-3 h2,
+  body.land main .land-3 header h2,
+  header body.land main .land-4 h2,
+  body.land main .land-4 header h2,
+  header body.land main .land-3 h3,
+  body.land main .land-3 header h3,
+  header body.land main .land-4 h3,
+  body.land main .land-4 header h3,
+  header main .pagetitle h1,
+  main .pagetitle header h1,
+  header main .pagetitle h2,
+  main .pagetitle header h2,
+  header .checkout h2,
+  .checkout header h2,
+  header .plans .plan .title,
+  .plans .plan header .title {
+    font-size: calc(18px + 6 * ((100vw - 750px) / 250))
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 1000px) {
+
+  header .subtitle1,
+  header body.land main .land-1 h1,
+  body.land main .land-1 header h1,
+  header body.land main .land-2 h2,
+  body.land main .land-2 header h2,
+  header body.land main .land-3 h2,
+  body.land main .land-3 header h2,
+  header body.land main .land-4 h2,
+  body.land main .land-4 header h2,
+  header body.land main .land-3 h3,
+  body.land main .land-3 header h3,
+  header body.land main .land-4 h3,
+  body.land main .land-4 header h3,
+  header main .pagetitle h1,
+  main .pagetitle header h1,
+  header main .pagetitle h2,
+  main .pagetitle header h2,
+  header .checkout h2,
+  .checkout header h2,
+  header .plans .plan .title,
+  .plans .plan header .title {
+    font-size: 24px
+  }
+}
+
+header.adm .logo img {
+  width: 110px
+}
+
+header.adm .clogo img {
+  width: 150px
+}
+
+header.adm .admMenu {
+  max-width: 300px
+}
+
+header.adm .admMenu a {
+  color: #000000 !important
+}
+
+header.adm .admMenu a .fa-bars {
+  font-size: 32px
+}
+
+header.adm .admIcons {
+  max-width: 300px
+}
+
+header.adm .admIcons .fb {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+header.adm .admIcons .fb i {
+  margin: 0
+}
+
+header.adm .admIcons .fb:hover {
+  color: #FED330
+}
+
+header.adm .admIcons .Tw {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+header.adm .admIcons .Tw i {
+  margin: 0
+}
+
+header.adm .admIcons .Tw:hover {
+  color: #FED330
+}
+
+header.adm .admIcons .li {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+header.adm .admIcons .li i {
+  margin: 0
+}
+
+header.adm .admIcons .li:hover {
+  color: #FED330
+}
+
+header.adm .admIcons .In {
+  padding: 21px 24px;
+  color: #4B6584;
+  background-color: #ffffff;
+  border-radius: 13px;
+  text-decoration: none;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 100%;
+  border: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+header.adm .admIcons .In i {
+  margin: 0
+}
+
+header.adm .admIcons .In:hover {
+  color: #FED330
+}
+
+header.adm .admIcons .fab {
+  font-size: 20px
+}
+
+.logohead {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.logohead img {
+  width: 109px
+}
+
+body.land .grad-land {
+  background-image: url("/img/land_bgmo.png"), linear-gradient(109.93deg, #FA8531 11.24%, rgba(251, 191, 49, 0.71) 30.14%, rgba(255, 255, 255, 0) 81.14%);
+  background-repeat: no-repeat;
+  background-position: left center;
+  opacity: 0.8;
+  height: 640px;
+  overflow: hidden
+}
+
+body.land .grad-land img {
+  display: none
+}
+
+@media only screen and (min-width: 768px) {
+  body.land .grad-land {
+    background-image: linear-gradient(109.93deg, #FA8531 11.24%, rgba(251, 191, 49, 0.71) 30.14%, rgba(255, 255, 255, 0) 81.14%);
+    background-position: left bottom;
+    height: 700px
+  }
+
+  body.land .grad-land img {
+    display: block;
+    margin-top: 80px
+  }
+}
+
+body.land header {
+  position: relative;
+  background-color: #FEEBBF;
+  height: 114px;
+  padding: 0;
+  box-shadow: 0px 4px 32px rgba(159, 171, 186, 0.36)
+}
+
+body.land header .logo img {
+  width: 50px
+}
+
+body.land header .menu a {
+  color: #000000 !important
+}
+
+body.land header .menu a .fa-bars {
+  font-size: 32px
+}
+
+body.land header .menu a:hover {
+  color: #FA8231 !important;
+  text-decoration: none
+}
+
+@media only screen and (min-width: 768px) {
+  body.land header {
+    height: 143px
+  }
+
+  body.land header .logo img {
+    width: 90px
+  }
+
+  body.land header .subtitle2,
+  body.land header footer .col-1 .logan,
+  body.land footer .col-1 header .logan,
+  body.land header .price {
+    font-size: 40px
+  }
+
+  body.land header .text-smaller,
+  body.land header .button-round,
+  body.land header .dash-box .title .lb,
+  .dash-box .title body.land header .lb,
+  body.land header .dash-box .title .lv,
+  .dash-box .title body.land header .lv,
+  body.land header .dash-box .subtitle,
+  .dash-box body.land header .subtitle,
+  body.land header .plans .plan .discount,
+  .plans .plan body.land header .discount {
+    font-size: 24px
+  }
+}
+
+body.land main {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  padding: 0;
+  margin: 0
+}
+
+@media only screen and (min-width: 768px) {
+  body.land main {
+    margin-top: 0px
+  }
+}
+
+body.land main .land-1 {
+  height: 527px
+}
+
+body.land main .land-1 .offer {
+  width: 350px
+}
+
+body.land main .land-1 .offer p {
+  text-align: center
+}
+
+body.land main .land-1 .media {
+  width: 350px
+}
+
+body.land main .land-1 .media img {
+  border-radius: 16px;
+  max-width: 100%;
+  overflow: hidden
+}
+
+@media only screen and (min-width: 768px) {
+  body.land main .land-1 {
+    height: 558px
+  }
+
+  body.land main .land-1 h1 {
+    white-space: nowrap
+  }
+
+  body.land main .land-1 .offer {
+    max-width: 460px;
+    min-width: 400px
+  }
+
+  body.land main .land-1 .offer .line {
+    padding: 0.5rem 0
+  }
+
+  body.land main .land-1 .offer .line:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    height: 2px;
+    width: 20%;
+    border-bottom: 2px solid #000000
+  }
+
+  body.land main .land-1 .offer p {
+    font-size: 18px;
+    text-align: left
+  }
+
+  body.land main .land-1 .offer .button {
+    margin: 0 auto 0 0
+  }
+
+  body.land main .land-1 .media {
+    width: 100%
+  }
+
+  body.land main .land-1 .media img {
+    border-radius: 16px;
+    max-width: 100%;
+    overflow: hidden
+  }
+}
+
+body.land main .land-2,
+body.land main .land-3,
+body.land main .land-4 {
+  background-color: #F5F5F5
+}
+
+@media only screen and (min-width: 768px) {
+
+  body.land main .land-2,
+  body.land main .land-3,
+  body.land main .land-4 {
+    margin: 0 auto
+  }
+
+  body.land main .land-2>div.wrap,
+  body.land main .land-3>div.wrap,
+  body.land main .land-4>div.wrap {
+    max-width: 900px;
+    padding: 3rem 0
+  }
+
+  body.land main .land-2 h2,
+  body.land main .land-3 h2,
+  body.land main .land-4 h2 {
+    padding: 2rem 0
+  }
+
+  body.land main .land-2 h2:before,
+  body.land main .land-3 h2:before,
+  body.land main .land-4 h2:before,
+  body.land main .land-2 h2:after,
+  body.land main .land-3 h2:after,
+  body.land main .land-4 h2:after {
+    display: inline-block;
+    content: "";
+    border-top: 0.15rem solid #FA8231;
+    width: 10vw;
+    margin: 0 3rem;
+    transform: translateY(-0.5rem)
+  }
+
+  body.land main .land-2 p,
+  body.land main .land-3 p,
+  body.land main .land-4 p {
+    font-size: 18px
+  }
+}
+
+body.land main .land-3,
+body.land main .land-4 {
+  background-color: #ffffff
+}
+
+body.land main .land-3 .media,
+body.land main .land-4 .media {
+  min-width: 340px;
+  max-width: 480px
+}
+
+body.land main .land-3 .media img,
+body.land main .land-4 .media img {
+  width: 100%;
+  border-radius: 16px
+}
+
+@media only screen and (min-width: 768px) {
+
+  body.land main .land-3,
+  body.land main .land-4 {
+    margin: 0 auto
+  }
+
+  body.land main .land-3>div.wrap,
+  body.land main .land-4>div.wrap {
+    max-width: 1165px;
+    padding: 3rem 0
+  }
+
+  body.land main .land-3 .media,
+  body.land main .land-4 .media {
+    padding: 0.25rem
+  }
+
+  body.land main .land-3 .media .offer .title,
+  body.land main .land-4 .media .offer .title {
+    font-size: 22px
+  }
+
+  body.land main .land-3 .media .offer p,
+  body.land main .land-4 .media .offer p {
+    font-size: 14px
+  }
+}
+
+body.land main .land-4 {
+  position: relative
+}
+
+body.land main .land-4>div.wrap {
+  z-index: 1
+}
+
+body.land main .land-4 h3 {
+  padding-top: 0 !important
+}
+
+body.land main .land-4 .media {
+  width: 340px;
+  height: 380px
+}
+
+body.land main .land-4 .media h4 {
+  font-weight: bold
+}
+
+body.land main .land-4 .media .content .text {
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+body.land main .land-4 .offer {
+  margin-top: 3rem
+}
+
+body.land main .land-4 .bg1,
+body.land main .land-4 .bg2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background: url("/img/land-bglmo.png") top left no-repeat
+}
+
+body.land main .land-4 .bg2 {
+  background: url("/img/land-bgrmo.png") center right no-repeat
+}
+
+@media only screen and (min-width: 768px) {
+  body.land main .land-4 .media {
+    width: 470px;
+    height: 515px
+  }
+
+  body.land main .land-4 .media h4 {
+    font-size: 24px;
+    padding: 2rem 0 !important
+  }
+
+  body.land main .land-4 .media .content {
+    max-width: 320px
+  }
+
+  body.land main .land-4 .media .content .text {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+
+  body.land main .land-4 .media .content p {
+    font-size: 14px
+  }
+
+  body.land main .land-4 .offer {
+    margin-top: 5rem
+  }
+
+  body.land main .land-4 .bg1,
+  body.land main .land-4 .bg2 {
+    background: url("/img/land-bgl.png") top left no-repeat
+  }
+
+  body.land main .land-4 .bg2 {
+    background: url("/img/land-bgr.png") bottom right no-repeat
+  }
+}
+
+body.land footer {
+  position: relative;
+  background-color: #11283F;
+  color: #ffffff;
+  min-height: 250px;
+  height: auto
+}
+
+body.land footer>div {
+  max-width: 1165px
+}
+
+body.land footer a {
+  color: #ffffff !important
+}
+
+body.land footer a:hover {
+  color: #FA8231 !important;
+  text-decoration: none
+}
+
+body.land footer .col-1 {
+  min-width: 340px
+}
+
+body.land footer .col-1 .logo {
+  max-width: 80px
+}
+
+body.land footer .col-1 .logo img {
+  width: 100%
+}
+
+body.land footer .col-1 .logan {
+  color: #ffffff
+}
+
+body.land footer .col-1 .slogan {
+  color: #ffffff
+}
+
+body.land footer .col-2 {
+  min-width: 340px
+}
+
+body.land footer .col-2 .menu>div {
+  min-width: 170px
+}
+
+body.land footer .col-2 .menu>div>div {
+  padding: 0.5rem 0
+}
+
+body.land footer .col-3 {
+  min-width: 100vw
+}
+
+body.land footer .col-3 .totop a {
+  color: #ffffff
+}
+
+@media only screen and (min-width: 768px) {
+  body.land footer .col-1 .logan {
+    font-size: 24px
+  }
+
+  body.land footer .col-1 .slogan {
+    font-size: 16px;
+    min-width: 300px
+  }
+
+  body.land footer .col-3 {
+    min-width: auto
+  }
+}
+
+.welcome-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto
+}
+
+.welcome-box h3 {
+  margin-top: 6.48148vh
+}
+
+.welcome-box h3 {
+  font-size: 30px
+}
+
+@media screen and (min-width: 360px) {
+  .welcome-box h3 {
+    font-size: calc(30px + 6 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+  .welcome-box h3 {
+    font-size: 36px
+  }
+}
+
+.welcome-box .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 13.88889vh
+}
+
+.welcome-box .container {
+  height: auto
+}
+
+@media only screen and (min-width: 768px) {
+  .login-box .close-popup {
+    display: none
+  }
+}
+
+.login-box .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 23px;
+  max-width: 360px;
+  min-height: 640px;
+  max-height: 1080px;
+  height: 100vh
+}
+
+.login-box .container .subtitle2,
+.login-box .container body.land footer .col-1 .logan,
+body.land footer .col-1 .login-box .container .logan,
+.login-box .container .price {
+  font-size: 20px
+}
+
+@media screen and (min-width: 360px) {
+
+  .login-box .container .subtitle2,
+  .login-box .container body.land footer .col-1 .logan,
+  body.land footer .col-1 .login-box .container .logan,
+  .login-box .container .price {
+    font-size: calc(20px + 2 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  .login-box .container .subtitle2,
+  .login-box .container body.land footer .col-1 .logan,
+  body.land footer .col-1 .login-box .container .logan,
+  .login-box .container .price {
+    font-size: 22px
+  }
+}
+
+.login-box .fluid-head {
+  min-height: 140px;
+  max-height: 240px;
+  height: 22.22222vh
+}
+
+.login-box .fluid-head .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto
+}
+
+.login-box .fluid-head .logo {
+  width: 76px
+}
+
+@media screen and (min-width: 360px) {
+  .login-box .fluid-head .logo {
+    width: calc(76px + 0 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+  .login-box .fluid-head .logo {
+    width: 76px
+  }
+}
+
+.login-box .fluid-head .logo img {
+  max-width: 100%
+}
+
+.login-box .fluid-body {
+  min-height: 100px;
+  max-height: 150px;
+  height: 13.88889vh
+}
+
+.login-box .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center
+}
+
+.login-box .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center
+}
+
+.login-box .login-form .fluid-height {
+  margin-top: 0.92593vh
+}
+
+.login-box .login-form .password-field i.fa-eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  cursor: pointer;
+  color: #9FABBA;
+  font-size: 1.2rem
+}
+
+.login-box .login-form .field1,
+.login-box .login-form .field2 {
+  color: #4B6584
+}
+
+.login-box .login-form .field1 label,
+.login-box .login-form .field2 label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between
+}
+
+.login-box .login-form .field2 {
+  justify-content: space-evenly
+}
+
+.onboardingBox .container {
+  max-width: 680px
+}
+
+.onboardingBox .container .subtitle2,
+.onboardingBox .container body.land footer .col-1 .logan,
+body.land footer .col-1 .onboardingBox .container .logan,
+.onboardingBox .container .price {
+  font-size: 20px
+}
+
+@media screen and (min-width: 360px) {
+
+  .onboardingBox .container .subtitle2,
+  .onboardingBox .container body.land footer .col-1 .logan,
+  body.land footer .col-1 .onboardingBox .container .logan,
+  .onboardingBox .container .price {
+    font-size: calc(20px + 2 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media screen and (min-width: 1960px) {
+
+  .onboardingBox .container .subtitle2,
+  .onboardingBox .container body.land footer .col-1 .logan,
+  body.land footer .col-1 .onboardingBox .container .logan,
+  .onboardingBox .container .price {
+    font-size: 22px
+  }
+}
+
+.onboardingBox .container .grid__col-6 {
+  flex: 0 0 100%
+}
+
+@media only screen and (min-width: 768px) {
+  .onboardingBox .container .grid__col-6 {
+    flex: 0 0 50%
+  }
+}
+
+.onboardingBox .container .submit {
+  margin-top: 1.85185vh
+}
+
+.mygrid6,
+.paysystems {
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.mygrid6 .r-box,
+.paysystems .r-box,
+.mygrid6 body.land main .land-4 .media,
+body.land main .land-4 .mygrid6 .media,
+.paysystems body.land main .land-4 .media,
+body.land main .land-4 .paysystems .media,
+.mygrid6 .chatbox .chatbody,
+.chatbox .mygrid6 .chatbody,
+.paysystems .chatbox .chatbody,
+.chatbox .paysystems .chatbody {
+  margin: 0.4em auto
+}
+
+.mygrid6 .r-box.sm .fa,
+.paysystems .r-box.sm .fa,
+.mygrid6 body.land main .land-4 .sm.media .fa,
+body.land main .land-4 .mygrid6 .sm.media .fa,
+.paysystems body.land main .land-4 .sm.media .fa,
+body.land main .land-4 .paysystems .sm.media .fa,
+.mygrid6 .chatbox .sm.chatbody .fa,
+.chatbox .mygrid6 .sm.chatbody .fa,
+.paysystems .chatbox .sm.chatbody .fa,
+.chatbox .paysystems .sm.chatbody .fa,
+.mygrid6 .r-box.sm .fal,
+.paysystems .r-box.sm .fal,
+.mygrid6 body.land main .land-4 .sm.media .fal,
+body.land main .land-4 .mygrid6 .sm.media .fal,
+.paysystems body.land main .land-4 .sm.media .fal,
+body.land main .land-4 .paysystems .sm.media .fal,
+.mygrid6 .chatbox .sm.chatbody .fal,
+.chatbox .mygrid6 .sm.chatbody .fal,
+.paysystems .chatbox .sm.chatbody .fal,
+.chatbox .paysystems .sm.chatbody .fal,
+.mygrid6 .r-box.sm .fab,
+.paysystems .r-box.sm .fab,
+.mygrid6 body.land main .land-4 .sm.media .fab,
+body.land main .land-4 .mygrid6 .sm.media .fab,
+.paysystems body.land main .land-4 .sm.media .fab,
+body.land main .land-4 .paysystems .sm.media .fab,
+.mygrid6 .chatbox .sm.chatbody .fab,
+.chatbox .mygrid6 .sm.chatbody .fab,
+.paysystems .chatbox .sm.chatbody .fab,
+.chatbox .paysystems .sm.chatbody .fab,
+.mygrid6 .r-box.sm .fas,
+.paysystems .r-box.sm .fas,
+.mygrid6 body.land main .land-4 .sm.media .fas,
+body.land main .land-4 .mygrid6 .sm.media .fas,
+.paysystems body.land main .land-4 .sm.media .fas,
+body.land main .land-4 .paysystems .sm.media .fas,
+.mygrid6 .chatbox .sm.chatbody .fas,
+.chatbox .mygrid6 .sm.chatbody .fas,
+.paysystems .chatbox .sm.chatbody .fas,
+.chatbox .paysystems .sm.chatbody .fas {
+  font-size: 48px;
+  color: #4B6584
+}
+
+.dash-box {
+  width: 150px;
+  min-height: 200px;
+  margin: 0 auto
+}
+
+@media only screen and (min-width: 768px) {
+  .dash-box {
+    width: 250px;
+    min-height: 250px;
+    padding: 2.5rem
+  }
+
+  .dash-box .title .lb {
+    font-size: 16px
+  }
+
+  .dash-box .title .lv {
+    font-size: 16px
+  }
+
+  .dash-box .subtitle {
+    font-size: 14px
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 360px
+}
+
+@media only screen and (min-width: 768px) {
+  .page {
+    padding: 1.5rem !important
+  }
+}
+
+.page .input-group,
+.page .input-group-dbl,
+.page .input-group-trpl {
+  margin: 2px 0 0 0
+}
+
+.page.adm .container {
+  width: 860px
+}
+
+.page.adm .container .items .r-box,
+.page.adm .container .items body.land main .land-4 .media,
+body.land main .land-4 .page.adm .container .items .media,
+.page.adm .container .items .chatbox .chatbody,
+.chatbox .page.adm .container .items .chatbody {
+  width: 234px;
+  height: 160px
+}
+
+.page.adm .container .items .r-box .logo img,
+.page.adm .container .items body.land main .land-4 .media .logo img,
+body.land main .land-4 .page.adm .container .items .media .logo img,
+.page.adm .container .items .chatbox .chatbody .logo img,
+.chatbox .page.adm .container .items .chatbody .logo img {
+  width: 128px
+}
+
+.page.adm .logo img {
+  width: 95px
+}
+
+.page.adm .login-form,
+.page.adm .narrow {
+  width: 340px
+}
+
+.page.adm .login-form a,
+.page.adm .narrow a {
+  font-weight: bold
+}
+
+.page.adm .input-search i {
+  top: 50%;
+  transform: translateY(-45%)
+}
+
+.page.adm .input-search .select {
+  min-width: 130px;
+  background-color: transparent;
+  border-bottom: 2px solid #9FABBA;
+  border-radius: 0px
+}
+
+.page.adm .password-field i.fa-eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  cursor: pointer;
+  color: #9FABBA;
+  font-size: 1.2rem
+}
+
+.page.adm label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between
+}
+
+.page.adm .button.em {
+  margin-top: 0
+}
+
+.page.adm .inst-management .container {
+  width: 1053px
+}
+
+.page.adm .inst-management .container .select {
+  padding-left: 2rem
+}
+
+.page.adm .inst-management .container .upl .upl.banner label {
+  left: 4.5rem
+}
+
+.page.adm .inst-management .container .upl .upl label {
+  left: 0.7rem
+}
+
+.r-box,
+body.land main .land-4 .media,
+.chatbox .chatbody {
+  background-color: #ffffff;
+  border-radius: 16px
+}
+
+.r-box.sm,
+body.land main .land-4 .sm.media,
+.chatbox .sm.chatbody {
+  width: 168px;
+  height: 119px
+}
+
+.r-box h1,
+body.land main .land-4 .media h1,
+.chatbox .chatbody h1,
+.r-box h2,
+body.land main .land-4 .media h2,
+.chatbox .chatbody h2,
+.r-box p,
+body.land main .land-4 .media p,
+.chatbox .chatbody p {
+  color: #000000 !important
+}
+
+.r-box .container,
+body.land main .land-4 .media .container,
+.chatbox .chatbody .container {
+  max-width: 800px;
+  min-width: 340px
+}
+
+.r-box .container h1,
+body.land main .land-4 .media .container h1,
+.chatbox .chatbody .container h1,
+.r-box .container h2,
+body.land main .land-4 .media .container h2,
+.chatbox .chatbody .container h2,
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p {
+  color: #4B6584 !important
+}
+
+.r-box .container h4,
+body.land main .land-4 .media .container h4,
+.chatbox .chatbody .container h4 {
+  text-align: center
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container h4,
+  body.land main .land-4 .media .container h4,
+  .chatbox .chatbody .container h4 {
+    text-align: left
+  }
+}
+
+.r-box .container .button,
+body.land main .land-4 .media .container .button,
+.chatbox .chatbody .container .button {
+  margin: 0
+}
+
+.r-box .container .image img,
+body.land main .land-4 .media .container .image img,
+.chatbox .chatbody .container .image img {
+  border-radius: 16px;
+  max-width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container .image img,
+  body.land main .land-4 .media .container .image img,
+  .chatbox .chatbody .container .image img {
+    border-radius: 42px
+  }
+}
+
+.r-box .container p,
+body.land main .land-4 .media .container p,
+.chatbox .chatbody .container p {
+  padding: 0 !important
+}
+
+.r-box .container.course-btns,
+body.land main .land-4 .media .container.course-btns,
+.chatbox .chatbody .container.course-btns,
+.r-box .container .container.project-btns,
+.r-box .container .chatbox .chatbody .container.project-btns,
+body.land main .land-4 .media .container .container.project-btns,
+.chatbox .chatbody .container .container.project-btns {
+  justify-content: space-between;
+  flex-wrap: nowrap
+}
+
+.r-box .container.course-btns>div:nth-child(1),
+body.land main .land-4 .media .container.course-btns>div:nth-child(1),
+.chatbox .chatbody .container.course-btns>div:nth-child(1),
+.r-box .container .container.project-btns>div:nth-child(1),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(1),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(1),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(1) {
+  flex: 1
+}
+
+.r-box .container.course-btns>div:nth-child(2),
+body.land main .land-4 .media .container.course-btns>div:nth-child(2),
+.chatbox .chatbody .container.course-btns>div:nth-child(2),
+.r-box .container .container.project-btns>div:nth-child(2),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(2),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(2),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(2) {
+  flex: 0 0 70px
+}
+
+.r-box .container.course-btns>div:nth-child(3),
+body.land main .land-4 .media .container.course-btns>div:nth-child(3),
+.chatbox .chatbody .container.course-btns>div:nth-child(3),
+.r-box .container .container.project-btns>div:nth-child(3),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(3),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(3),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(3),
+.r-box .container.course-btns>div:nth-child(4),
+body.land main .land-4 .media .container.course-btns>div:nth-child(4),
+.chatbox .chatbody .container.course-btns>div:nth-child(4),
+.r-box .container .container.project-btns>div:nth-child(4),
+.r-box .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.r-box .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .r-box .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .container.project-btns>div:nth-child(4),
+body.land main .land-4 .media .container .chatbox .chatbody .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .r-box .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container body.land main .land-4 .media .container.project-btns>div:nth-child(4),
+.chatbox .chatbody .container .container.project-btns>div:nth-child(4) {
+  flex: 0 0 47px
+}
+
+.r-box .container.ach-btns>div:first-child,
+body.land main .land-4 .media .container.ach-btns>div:first-child,
+.chatbox .chatbody .container.ach-btns>div:first-child {
+  flex: 1 1 auto
+}
+
+.r-box .container.ach-btns>div:first-child h4,
+body.land main .land-4 .media .container.ach-btns>div:first-child h4,
+.chatbox .chatbody .container.ach-btns>div:first-child h4 {
+  text-align: left
+}
+
+.r-box .container.ach-btns>div:last-child,
+body.land main .land-4 .media .container.ach-btns>div:last-child,
+.chatbox .chatbody .container.ach-btns>div:last-child {
+  flex: 0 0 80px
+}
+
+.r-box .container .float-fix>div:first-child,
+body.land main .land-4 .media .container .float-fix>div:first-child,
+.chatbox .chatbody .container .float-fix>div:first-child {
+  flex: 1 1 auto
+}
+
+.r-box .container .float-fix>div:first-child>div,
+body.land main .land-4 .media .container .float-fix>div:first-child>div,
+.chatbox .chatbody .container .float-fix>div:first-child>div {
+  padding: 0 2px
+}
+
+.r-box .container .float-fix>div:last-child,
+body.land main .land-4 .media .container .float-fix>div:last-child,
+.chatbox .chatbody .container .float-fix>div:last-child {
+  flex: 0 0 35px
+}
+
+.r-box .container.career-info .grid__col-6,
+body.land main .land-4 .media .container.career-info .grid__col-6,
+.chatbox .chatbody .container.career-info .grid__col-6 {
+  min-width: 310px
+}
+
+.r-box .container.career-info .grid__col-6 img,
+body.land main .land-4 .media .container.career-info .grid__col-6 img,
+.chatbox .chatbody .container.career-info .grid__col-6 img {
+  max-width: 100%;
+  border-radius: 16px
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container.career-info form .input-group:nth-child(2),
+  body.land main .land-4 .media .container.career-info form .input-group:nth-child(2),
+  .chatbox .chatbody .container.career-info form .input-group:nth-child(2),
+  .r-box .container.career-info form .input-group-dbl:nth-child(2),
+  body.land main .land-4 .media .container.career-info form .input-group-dbl:nth-child(2),
+  .chatbox .chatbody .container.career-info form .input-group-dbl:nth-child(2),
+  .r-box .container.career-info form .input-group-trpl:nth-child(2),
+  body.land main .land-4 .media .container.career-info form .input-group-trpl:nth-child(2),
+  .chatbox .chatbody .container.career-info form .input-group-trpl:nth-child(2) {
+    padding: 0 0.5rem
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container.career-info form,
+  body.land main .land-4 .media .container.career-info form,
+  .chatbox .chatbody .container.career-info form {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center
+  }
+}
+
+.r-box .container.career-info p,
+body.land main .land-4 .media .container.career-info p,
+.chatbox .chatbody .container.career-info p {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container.career-info p,
+  body.land main .land-4 .media .container.career-info p,
+  .chatbox .chatbody .container.career-info p {
+    flex-direction: row
+  }
+}
+
+.r-box .container .certificate-form textarea,
+body.land main .land-4 .media .container .certificate-form textarea,
+.chatbox .chatbody .container .certificate-form textarea {
+  height: 100px;
+  padding-left: 24px !important
+}
+
+.r-box .container .certificate-form .uplfile,
+body.land main .land-4 .media .container .certificate-form .uplfile,
+.chatbox .chatbody .container .certificate-form .uplfile {
+  position: relative
+}
+
+.r-box .container .certificate-form .uplfile input,
+body.land main .land-4 .media .container .certificate-form .uplfile input,
+.chatbox .chatbody .container .certificate-form .uplfile input {
+  padding-left: 4rem
+}
+
+.r-box .container .certificate-form .uplfile label,
+body.land main .land-4 .media .container .certificate-form .uplfile label,
+.chatbox .chatbody .container .certificate-form .uplfile label {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9FABBA;
+  font-size: 1.5rem;
+  cursor: pointer
+}
+
+.r-box .container .certificate-form .uplfile.img input,
+body.land main .land-4 .media .container .certificate-form .uplfile.img input,
+.chatbox .chatbody .container .certificate-form .uplfile.img input {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.r-box .container .certificate-form .uplfile .select,
+body.land main .land-4 .media .container .certificate-form .uplfile .select,
+.chatbox .chatbody .container .certificate-form .uplfile .select {
+  padding-left: 24px
+}
+
+@media only screen and (min-width: 768px) {
+
+  .r-box .container .certificate-form .uplfile,
+  body.land main .land-4 .media .container .certificate-form .uplfile,
+  .chatbox .chatbody .container .certificate-form .uplfile {
+    margin-top: 0
+  }
+}
+
+.r-box .adm-courses,
+body.land main .land-4 .media .adm-courses,
+.chatbox .chatbody .adm-courses {
+  width: 900px
+}
+
+.r-box .adm-courses .course,
+body.land main .land-4 .media .adm-courses .course,
+.chatbox .chatbody .adm-courses .course {
+  max-width: 248px;
+  padding: 0 !important
+}
+
+.r-box .adm-courses .course .img,
+body.land main .land-4 .media .adm-courses .course .img,
+.chatbox .chatbody .adm-courses .course .img {
+  width: 42vw;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 16px
+}
+
+.r-box .adm-courses .course img,
+body.land main .land-4 .media .adm-courses .course img,
+.chatbox .chatbody .adm-courses .course img {
+  border-radius: 16px
+}
+
+.r-box .adm-courses .course p,
+body.land main .land-4 .media .adm-courses .course p,
+.chatbox .chatbody .adm-courses .course p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 96px
+}
+
+.r-box.course-management,
+body.land main .land-4 .course-management.media,
+.r-box.project-management,
+body.land main .land-4 .project-management.media,
+.chatbox .project-management.chatbody,
+.chatbox .course-management.chatbody,
+.chatbox .chatbody.r-box.project-management {
+  width: 1300px
+}
+
+.r-box.course-management>div,
+body.land main .land-4 .course-management.media>div,
+.r-box.project-management>div,
+body.land main .land-4 .project-management.media>div,
+.chatbox .project-management.chatbody>div,
+.chatbox .course-management.chatbody>div,
+.chatbox .chatbody.r-box.project-management>div {
+  width: 1060px !important
+}
+
+.r-box.course-management>div .grid__col-4,
+body.land main .land-4 .course-management.media>div .grid__col-4,
+.r-box.project-management>div .grid__col-4,
+body.land main .land-4 .project-management.media>div .grid__col-4,
+.chatbox .project-management.chatbody>div .grid__col-4,
+.chatbox .course-management.chatbody>div .grid__col-4 {
+  max-width: 300px
+}
+
+.r-box.course-management>div .flipswitch-active,
+body.land main .land-4 .course-management.media>div .flipswitch-active,
+.r-box.project-management>div .flipswitch-active,
+body.land main .land-4 .project-management.media>div .flipswitch-active,
+.chatbox .project-management.chatbody>div .flipswitch-active,
+.chatbox .course-management.chatbody>div .flipswitch-active {
+  margin: 0 0 0 auto
+}
+
+.r-box.course-management>div .select,
+body.land main .land-4 .course-management.media>div .select,
+.r-box.project-management>div .select,
+body.land main .land-4 .project-management.media>div .select,
+.chatbox .project-management.chatbody>div .select,
+.chatbox .course-management.chatbody>div .select {
+  padding-left: 2rem
+}
+
+.r-box.course-management>div .upl.img input,
+body.land main .land-4 .course-management.media>div .upl.img input,
+.r-box.project-management>div .upl.img input,
+body.land main .land-4 .project-management.media>div .upl.img input,
+.chatbox .project-management.chatbody>div .upl.img input,
+.chatbox .course-management.chatbody>div .upl.img input {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.r-box.course-management>div .upl.video input,
+body.land main .land-4 .course-management.media>div .upl.video input,
+.r-box.project-management>div .upl.video input,
+body.land main .land-4 .project-management.media>div .upl.video input,
+.chatbox .project-management.chatbody>div .upl.video input,
+.chatbox .course-management.chatbody>div .upl.video input {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.r-box.course-management>div .upl .media,
+body.land main .land-4 .course-management.media>div .upl .media,
+.r-box.project-management>div .upl .media,
+body.land main .land-4 .project-management.media>div .upl .media,
+.chatbox .project-management.chatbody>div .upl .media,
+.chatbox .course-management.chatbody>div .upl .media {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1rem;
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  border-radius: 8px
+}
+
+.r-box.course-management>div .upl .media img,
+body.land main .land-4 .course-management.media>div .upl .media img,
+.r-box.project-management>div .upl .media img,
+body.land main .land-4 .project-management.media>div .upl .media img,
+.chatbox .project-management.chatbody>div .upl .media img,
+.chatbox .course-management.chatbody>div .upl .media img {
+  height: 100%
+}
+
+.r-box.course-management>div .upl label,
+body.land main .land-4 .course-management.media>div .upl label,
+.r-box.project-management>div .upl label,
+body.land main .land-4 .project-management.media>div .upl label,
+.chatbox .project-management.chatbody>div .upl label,
+.chatbox .course-management.chatbody>div .upl label {
+  left: 7rem
+}
+
+.r-box.course-management>div .edit,
+body.land main .land-4 .course-management.media>div .edit,
+.r-box.project-management>div .edit,
+body.land main .land-4 .project-management.media>div .edit,
+.chatbox .project-management.chatbody>div .edit,
+.chatbox .course-management.chatbody>div .edit {
+  max-width: 140px
+}
+
+.r-box.course-management>div td .fas,
+body.land main .land-4 .course-management.media>div td .fas,
+.r-box.project-management>div td .fas,
+body.land main .land-4 .project-management.media>div td .fas,
+.chatbox .project-management.chatbody>div td .fas,
+.chatbox .course-management.chatbody>div td .fas {
+  font-size: 1.2rem
+}
+
+.r-box.course-management>div td .fas.fa-minus-circle,
+body.land main .land-4 .course-management.media>div td .fas.fa-minus-circle,
+.r-box.project-management>div td .fas.fa-minus-circle,
+body.land main .land-4 .project-management.media>div td .fas.fa-minus-circle,
+.chatbox .project-management.chatbody>div td .fas.fa-minus-circle,
+.chatbox .course-management.chatbody>div td .fas.fa-minus-circle {
+  color: #9FABBA
+}
+
+.r-box.course-management>div td .fas.fa-plus-circle,
+body.land main .land-4 .course-management.media>div td .fas.fa-plus-circle,
+.r-box.project-management>div td .fas.fa-plus-circle,
+body.land main .land-4 .project-management.media>div td .fas.fa-plus-circle,
+.chatbox .project-management.chatbody>div td .fas.fa-plus-circle,
+.chatbox .course-management.chatbody>div td .fas.fa-plus-circle {
+  color: #FA8231
+}
+
+.r-box.course-management>div td .far,
+body.land main .land-4 .course-management.media>div td .far,
+.r-box.project-management>div td .far,
+body.land main .land-4 .project-management.media>div td .far,
+.chatbox .project-management.chatbody>div td .far,
+.chatbox .course-management.chatbody>div td .far {
+  font-weight: bold;
+  font-size: 1.2rem
+}
+
+.r-box.course-management>div td .far.fa-check,
+body.land main .land-4 .course-management.media>div td .far.fa-check,
+.r-box.project-management>div td .far.fa-check,
+body.land main .land-4 .project-management.media>div td .far.fa-check,
+.chatbox .project-management.chatbody>div td .far.fa-check,
+.chatbox .course-management.chatbody>div td .far.fa-check {
+  color: #FA8231
+}
+
+.r-box.course-management>div td .far.fa-times,
+body.land main .land-4 .course-management.media>div td .far.fa-times,
+.r-box.project-management>div td .far.fa-times,
+body.land main .land-4 .project-management.media>div td .far.fa-times,
+.chatbox .project-management.chatbody>div td .far.fa-times,
+.chatbox .course-management.chatbody>div td .far.fa-times {
+  color: #9FABBA
+}
+
+.r-box.project-management>div .grid__col-4,
+body.land main .land-4 .project-management.media>div .grid__col-4,
+.chatbox .project-management.chatbody>div .grid__col-4 {
+  max-width: 330px
+}
+
+main {
+  padding: 1vh 10px;
+  overflow: auto;
+  position: absolute;
+  top: calc(100px - 10px);
+  bottom: 57px;
+  left: 0;
+  right: 0
+}
+
+main .dt {
+  display: none
+}
+
+main .mo {
+  display: block
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    padding: 0 50px 57px 50px;
+    margin: 0;
+    position: relative;
+    top: auto;
+    bottom: auto
+  }
+
+  main .dt {
+    display: block
+  }
+
+  main .mo {
+    display: none
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  main .pagetitle h1,
+  main .pagetitle h2 {
+    font-size: 28px
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 360px) {
+
+  main .pagetitle h1,
+  main .pagetitle h2 {
+    font-size: calc(28px + 8 * ((100vw - 360px) / 1600))
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 1960px) {
+
+  main .pagetitle h1,
+  main .pagetitle h2 {
+    font-size: 36px
+  }
+}
+
+main .buttons .input-group,
+main .buttons .input-group-dbl,
+main .buttons .input-group-trpl {
+  margin: 0
+}
+
+main .buttons .input-group .button,
+main .buttons .input-group-dbl .button,
+main .buttons .input-group-trpl .button {
+  margin: 8px 0 0 0
+}
+
+@media only screen and (min-width: 768px) {
+
+  main .buttons .input-group .button,
+  main .buttons .input-group-dbl .button,
+  main .buttons .input-group-trpl .button {
+    margin: 16px 0 0 0
+  }
+}
+
+main .buttons-group {
+  flex-wrap: wrap
+}
+
+main .courses,
+main .courses-grid {
+  max-width: 860px
+}
+
+main .courses .course,
+main .courses-grid .course {
+  max-width: 248px;
+  padding: 0 !important
+}
+
+main .courses .course .img,
+main .courses-grid .course .img {
+  width: 42vw;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 16px
+}
+
+main .courses .course img,
+main .courses-grid .course img {
+  border-radius: 16px
+}
+
+main .courses .course p,
+main .courses-grid .course p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 96px
+}
+
+main .courses-search-form {
+  max-width: 1200px
+}
+
+main .courses-grid {
+  max-width: 1200px
+}
+
+main .courses-grid .course .img {
+  width: auto
+}
+
+main .courses-grid .course p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 96px
+}
+
+@media only screen and (min-width: 768px) {
+  main .top-search-form {
+    display: inline-flex
+  }
+
+  main .top-search-form>div:first-child {
+    width: 50%
+  }
+
+  main .top-search-form .h3,
+  body.land main .top-search-form .land-1 h1,
+  body.land main .land-1 .top-search-form h1,
+  main .top-search-form body.land footer .col-3 .totop a,
+  body.land footer .col-3 .totop main .top-search-form a,
+  main .top-search-form .plans .plan .price,
+  .plans .plan main .top-search-form .price {
+    font-size: 36px
+  }
+}
+
+main .tgl .tglhead .toggler {
+  font-size: 2rem;
+  position: absolute;
+  right: 7vw;
+  top: 20%;
+  color: #9FABBA;
+  cursor: pointer
+}
+
+main .tgl .tglbody {
+  height: 0px;
+  overflow: hidden;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease
+}
+
+main .tgl .tglbody.active {
+  height: auto
+}
+
+main .cards {
+  max-width: 1380px
+}
+
+main .cards>div {
+  margin: 0 auto
+}
+
+main .cards .card {
+  max-width: 410px;
+  min-width: 340px;
+  height: 196px;
+  background-color: #ffffff;
+  border-radius: 16px
+}
+
+main .cards .card .content {
+  color: #4B6584;
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+main .cards .card .footer .date {
+  color: #4B6584
+}
+
+main .cards .card .footer .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0
+}
+
+main .cards .card .footer .icon i {
+  font-size: 3rem;
+  color: #4B6584
+}
+
+main .cert-list>div {
+  min-width: 300px
+}
+
+main .cert-list>div .item {
+  color: #4B6584;
+  line-height: 30px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+main .cert-list>div .item:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-right: 7px;
+  display: inline-block;
+  background-color: #4B6584;
+  vertical-align: middle;
+  margin-bottom: 2px
+}
+
+main .ext-cert th {
+  padding: 7px !important
+}
+
+main .ext-cert .col5 {
+  min-width: 70px
+}
+
+.q-box {
+  min-width: calc(360px - 2 * 10px);
+  padding: 1rem 0 0 0
+}
+
+.q-box .subtitle2,
+.q-box body.land footer .col-1 .logan,
+body.land footer .col-1 .q-box .logan,
+.q-box .price {
+  text-align: center;
+  padding-top: 2vh
+}
+
+@media only screen and (min-width: 768px) {
+  .q-box {
+    text-align: left;
+    width: 60vw
+  }
+
+  .q-box .subtitle2,
+  .q-box body.land footer .col-1 .logan,
+  body.land footer .col-1 .q-box .logan,
+  .q-box .price {
+    text-align: left;
+    padding-top: 2vh
+  }
+}
+
+.q-box .q-title {
+  background-color: #FEEBBF;
+  padding: 2vh 2vw
+}
+
+.q-box .q-body {
+  padding: 0 1rem
+}
+
+@media only screen and (min-width: 768px) {
+  .q-box .q-body {
+    padding: 0
+  }
+}
+
+.q-box .q-body .item-title {
+  color: #4B6584;
+  padding: 1vh 0
+}
+
+.q-box .q-body .item-body {
+  color: #4B6584;
+  padding: 1vh 0;
+  background: transparent
+}
+
+.q-box .q-body .item-body .tag {
+  border: 2px solid #9FABBA;
+  border-radius: 8px
+}
+
+.q-box .q-body .item-body .tags-left {
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.q-box .q-body .item-body .tags-left .tag {
+  cursor: pointer
+}
+
+.q-box .q-body .item-body .tags-right {
+  flex-direction: column;
+  align-items: flex-end
+}
+
+.q-box .q-body .item-body .tags-right .tag {
+  cursor: pointer
+}
+
+.q-box .q-body .item-body .matched-tags {
+  background: #FCF2D9;
+  border: 2px dashed #FA8231;
+  border-radius: 8px;
+  min-height: 64px;
+  padding: 1rem
+}
+
+.q-box .q-body .item-body .matched-tags .tag {
+  border: 2px solid #FA8231;
+  cursor: move
+}
+
+.q-box .q-body .item-body .match-tags {
+  padding: 0.3rem 0
+}
+
+.q-box .q-body .item-body .match-tags .tag {
+  cursor: move
+}
+
+.q-box .q-body .item-body .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0
+}
+
+.q-box .q-body .item-body .line svg line {
+  stroke: #FA8231;
+  stroke-width: 1.75
+}
+
+.headbg {
+  height: 268px;
+  background: url(../../assets/img/instbg.png) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.headbg>div {
+  margin: 0 10vw;
+  height: 100%;
+  max-height: 260px;
+  overflow: hidden
+}
+
+.headbg>div div,
+.headbg>div p {
+  color: #ffffff
+}
+
+.headerbgy {
+  margin-top: 280px
+}
+
+@media only screen and (min-width: 768px) {
+  .headerbgy {
+    margin-top: 300px
+  }
+}
+
+.dot,
+.chatbox .chatbar .avatar .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%
+}
+
+.dot.green,
+.chatbox .chatbar .avatar .green.dot {
+  background-color: #20E070
+}
+
+.dot.red,
+.chatbox .chatbar .avatar .red.dot {
+  background-color: red
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-45%);
+  z-index: 2
+}
+
+.back a {
+  color: #000000 !important
+}
+
+.chatbox .chatbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px
+}
+
+.chatbox .chatbar .avatar {
+  position: absolute;
+  right: 0;
+  height: 54px;
+  width: 54px
+}
+
+.chatbox .chatbar .avatar .icon img {
+  border-radius: 50%
+}
+
+.chatbox .chatbar .avatar .dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #FEEBBF
+}
+
+.chatbox .chatbody .chatlist {
+  max-height: 50vh;
+  overflow-y: scroll
+}
+
+.chatbox .chatbody .chatlist .msg {
+  align-items: flex-end
+}
+
+.chatbox .chatbody .chatlist .msg .avatar {
+  width: 32px;
+  height: 32px
+}
+
+.chatbox .chatbody .chatlist .msg .avatar img {
+  border-radius: 50%
+}
+
+.chatbox .chatbody .chatlist .msg .msg {
+  border: 1px solid #ECEBEB;
+  border-radius: 16px;
+  max-width: 75%
+}
+
+.chatbox .chatbody .chatlist .msg.my .msg {
+  background-color: #ECEBEB;
+  border-bottom-right-radius: 0;
+  max-width: 50%
+}
+
+.chatbox .chatbody .chatform {
+  height: 56px
+}
+
+.chatbox .chatbody .chatform form>div:first-child {
+  flex: 1 1 auto
+}
+
+.chatbox .chatbody .chatform form>div:last-child {
+  flex: 0 0 56px
+}
+
+.date {
+  color: #4B6584
+}
+
+@media only screen and (min-width: 768px) {
+  .date {
+    font-size: 16px
+  }
+}
+
+.price {
+  color: #FA8231
+}
+
+@media only screen and (min-width: 768px) {
+  .mycart .w50 {
+    width: 50%
+  }
+}
+
+.mycart .promoprice {
+  margin: auto 0 0 0
+}
+
+.checkout .subtitle2,
+.checkout body.land footer .col-1 .logan,
+body.land footer .col-1 .checkout .logan,
+.checkout .price {
+  font-size: 24px
+}
+
+.checkout .form-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.checkout .form-row .input-group,
+.checkout .form-row .input-group-dbl,
+.checkout .form-row .input-group-trpl {
+  width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  .checkout .form-row {
+    flex-direction: row
+  }
+
+  .checkout .form-row .input-group:first-child,
+  .checkout .form-row .input-group-dbl:first-child,
+  .checkout .form-row .input-group-trpl:first-child {
+    padding-right: 2rem
+  }
+}
+
+.checkout .form-row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+@media only screen and (min-width: 768px) {
+  .checkout .form-row2 {
+    flex-direction: row
+  }
+
+  .checkout .form-row2 .input-group:last-child,
+  .checkout .form-row2 .input-group-dbl:last-child,
+  .checkout .form-row2 .input-group-trpl:last-child {
+    padding-left: 2rem
+  }
+}
+
+.checkout .success {
+  background-image: url("/img/Checkout.png");
+  background-repeat: no-repeat;
+  width: 265px;
+  height: 200px
+}
+
+.checkout .success button {
+  margin: 0
+}
+
+.paysystems {
+  max-width: 800px
+}
+
+.paysystems .paysys {
+  height: 42px;
+  width: 80px
+}
+
+.plans {
+  max-width: 900px
+}
+
+.plans .plan {
+  width: 340px
+}
+
+.plans .plan .title {
+  font-size: 24px !important;
+  width: 85%
+}
+
+.plans .plan .for {
+  height: 50px;
+  width: 85%
+}
+
+.plans .plan .discount {
+  color: #4B6584
+}
+
+.plans .plan .discount span {
+  color: #FA8231
+}
+
+.plans .plan .list {
+  padding: 0 0.75rem
+}
+
+.plans .plan .list ul {
+  list-style-type: disc
+}
+
+.upl .upl input {
+  padding: 2rem 0.7rem 2rem 2.2rem
+}
+
+.upl .upl input::-webkit-input-placeholder {
+  text-align: center
+}
+
+.upl .upl input::-moz-placeholder {
+  text-align: center
+}
+
+.upl .upl label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9FABBA;
+  font-size: 1.5rem;
+  cursor: pointer
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 57px;
+  position: fixed;
+  bottom: 0;
+  background-color: #FEEBBF
+}
+
+footer>div {
+  width: 100%
+}
+
+footer .fa {
+  font-size: 1.25rem;
+  color: #4B6584
+}
+
+footer .fa:hover {
+  color: #FA8231
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    height: 57px
+  }
+}

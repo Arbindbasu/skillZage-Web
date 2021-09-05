@@ -1,0 +1,214 @@
+<header>
+    <div class="dt flex-center">
+        <div class="grid">
+            <div class="grid__col-3 flex-center-l pt-5 pl-5">
+                <button class="button-lg-sq home"><i class="fa fa-home"></i></button>
+            </div>
+            <div class="grid__col-6 flex-center-col">
+                <h2 class="h2">Skillzage</h2>
+                <div class="subtitle1 pt-3 upper center">Skills to build <a class="subtitle1" href="/">a better future</a></div>
+            </div>            
+            <div class="grid__col-3 flex-center-r pt-5 pr-5">
+                <button class="button-lg-sq user"><i class="fa fa-user"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="mo">
+        <div class="grid">
+            <div class="grid__col-2 flex-center-b">
+                <button class="button-sm home"><i class="fa fa-home"></i></button>
+            </div>
+            <div class="grid__col-8 flex-center-b">
+                <div class="center">
+                    <h1 class="subtitle2 m-0">Skillzage</h1>
+                    <div class="text-smaller upper">Skills to build <a class="text-smaller upper" href="login.html">a better future</a></div>
+                </div>
+            </div>
+            <div class="grid__col-2 flex-center-b">
+                <button class="button-sm user"><i class="fa fa-user"></i></button>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="page adm">
+        <div class="container my-5">
+            <h3>Question Management</h3>            
+        </div>
+        <div class="r-box shadow course-management my-4">
+            <div>           
+                <div class="subtitle1 left my-4">Question</div>     
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Question ID</th>
+                            <th>Questionset ID</th>
+                            <th>Question</th>
+                            <th>True-False Question Type</th>
+                            <th>Multiple Choise Question Type</th>
+                            <th width="100px">Discussion Question Type</th>
+                            <th width="100px">Score</th>
+                            <th width="100px">Created By</th>
+                            <th width="90px">Active Status (Y/N)</th>
+                            <th width="150px">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr class="odd" *ngFor="let question of listQuestion" >
+                            <td>{{question.id}}</td>
+                            <td>{{question.questionSetId}}</td>
+                            <td>{{question.question}}</td>
+                            <td>{{question.isTrueFalse}}</td>
+                            <td>{{question.isMultiple}}</td>
+                            <td>{{question.isDiscussion}}</td>
+                            <td>{{question.score}}</td>
+                            <td>{{question.createdBy}}</td>
+                            <td>{{question.isActive}}</td>
+                            <td class="center">
+                                <i (click)="showModalQuestion(question)" ><a href="javascript:void(0)">Edit</a></i>
+                                <i> |  </i>
+                                <i (click)="showDeleteModalQuestion(question)" ><a href="javascript:void(0)">Delete</a></i>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+        <div class="container flex-center my-4">            
+            <button type="button" class="button em mr-2" data-bs-toggle="modal" data-bs-target="#createquestionset" >Create Questionset Type</button>              
+        </div>        
+    </div>
+
+  
+
+    <!--Create QuestionSet Modal -->
+<div class="modal" id="createquestionset" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="createquestionsetLabel">Add Questionset</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModalQuestionSet()"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" id="manageB2BUser">
+                <div>
+                    <div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Questionset Type Name" [(ngModel)]="questionsetPayload.questionSet" name = "questionSet" >
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Questionset Type" [(ngModel)]="questionsetPayload.questionSetType" name = "questionSetType">
+                        </div> 
+                        <div class="input-group">
+                            <input type="text" placeholder="Type" value="ALL" [(ngModel)]="questionsetPayload.type" name = "type" hidden>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" placeholder="Number Of Questions"  value="1" [(ngModel)]="questionsetPayload.numberOfQuestions" name = "numberOfQuestions">
+                        </div>
+                        <div class="input-group">
+                            <input type="number" placeholder="Total Score" value="0" [(ngModel)]="questionsetPayload.score" name = "score">
+                        </div>
+                      
+                        <div class="input-group">
+                            <input type="text" placeholder="Created By" [(ngModel)]="questionsetPayload.createdBy" name = "createdBy">
+                        </div>
+
+                        <div class="select">
+                            <select [(ngModel)]="questionsetPayload.isActive" (change)="getActiveStatus($event)" name = "isActive" > 
+                                <option value="">Select a status</option>
+                                <option *ngFor="let st of statusfld" [value]=st.val [selected]="st.val == true"> 
+                                    {{st.status}} 
+                                </option>  
+                            </select> 
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button em mr-0" data-bs-dismiss="modal" (click)="closeModalQuestionSet()">Close</button>
+          <button type="button" class="button em mr-0" (click)="doCreateQuestionSet()">CREATE</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+     <!-- Edit QuestionSet Modal -->
+<div class="modal" id="editquestionset" role="dialog" tabindex="-1" [style.display]="modalstatus ? 'block':'none'">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editquestionsetLabel">Edit Questionset</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModalQuestionSet()"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" id="manageB2BUser">
+                <div>
+                    <div>
+                        <div class="input-group">
+                            <input type="text" placeholder="id" [(ngModel)]="editquestionsetPayload.id" value="{{editValQuestionSet.id}}"  name = "id" >
+                            <input type="text" placeholder="Questionset Type Name" [(ngModel)]="editquestionsetPayload.questionSet" value="{{editValQuestionSet.questionSet}}"  name = "questionSet" >
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Questionset Type" [(ngModel)]="editquestionsetPayload.questionSetType" value="{{editValQuestionSet.questionSetType}}" name = "questionSetType">
+                        </div> 
+                        <div class="input-group">
+                            <input type="text" placeholder="Type" value="ALL" [(ngModel)]="editquestionsetPayload.type" value="{{editValQuestionSet.type}}" name = "type" hidden>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" placeholder="Number Of Questions"  value="1" [(ngModel)]="editquestionsetPayload.numberOfQuestions" value="{{editValQuestionSet.numberOfQuestions}}" name = "numberOfQuestions">
+                        </div>
+                        <div class="input-group">
+                            <input type="number" placeholder="Total Score" value="0" [(ngModel)]="editquestionsetPayload.score" value="{{editValQuestionSet.score}}" name = "score">
+                        </div>
+                      
+                        <div class="input-group">
+                            <input type="text" placeholder="Created By" [(ngModel)]="editquestionsetPayload.createdBy" value="{{editValQuestionSet.createdBy}}" name = "createdBy">
+                        </div>
+
+                        <div class="select">
+                            <select [(ngModel)]="editquestionsetPayload.isActive" (change)="getActiveStatus($event)" name = "isActive"> 
+                                <option value="">Select a status</option>
+                                <option *ngFor="let st of statusfld" [value]=st.val > 
+                                    {{st.status}} 
+                                </option>  
+                            </select> 
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button em mr-0" data-bs-dismiss="modal" (click)="closeModalQuestionSet()">Close</button>
+          <button type="button" class="button em mr-0" (click)="doUpdateQuestionSet()">UPDATE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal"  role="dialog" id="deletequestiosetmodal" [style.display]="deletemodalstatus ? 'block':'none'" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Confirmation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeDeleteModalQuestionSet()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to delete ?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" (click)="doDeleteQuestionSet()" >DELETE</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="closeDeleteModalQuestionSet()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gradient2"></div>
+<script src="../../assets/js/main.js"></script>
